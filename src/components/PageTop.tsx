@@ -1,22 +1,22 @@
 import React from 'react';
 import {ViewProps} from "./View";
 import {Menu} from "./Menu";
+import {classNames} from "../utils/Utils";
 
-function PageTop({view}: ViewProps) {
+export default function PageTop({view}: ViewProps) {
+    let getaQuoteClasses = classNames('btn', 'wire', view === 'get-a-quote' && 'active');
     return (
         <nav className="main-nav" data-controller="Sticky">
             <div className="container">
                 <a data-controller="MenuMobile" href="#" className="menu-mobile">
                     <span className="bar"></span>
                 </a>
-                <Menu view={view} />
-                <a href="/get-a-quote"
-                   className="btn wire <?php if ( $view == 'get-a-quote') echo 'active'; ?>">
-                    Get a quote
+                <a href="/" className="home">
+                    <img src="/img/underscreen-logo.png" alt="underSCREEN"/>
                 </a>
+                <Menu view={view}/>
+                <a href="/get-a-quote" className={getaQuoteClasses}>Get a quote</a>
             </div>
         </nav>
     );
 }
-
-export default PageTop;

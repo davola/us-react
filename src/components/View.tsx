@@ -6,10 +6,10 @@ export type ViewProps = {
 
 export default function View({view}: ViewProps) {
     let currentView = (
-        <div>
+        <main>
             <h2>Default view in use is:</h2>
             <h1>{view}</h1>
-        </div>
+        </main>
     );
     switch (view) {
         case 'home': currentView = <Home />; break;
@@ -17,8 +17,8 @@ export default function View({view}: ViewProps) {
     }
 
     return (
-        <div className={'view-' + view}>
+        <main>
             {currentView}
-        </div>
+        </main>
     );
 }

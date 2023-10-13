@@ -1,8 +1,11 @@
+import {classNames} from "../utils/Utils";
+
 export type MenuItemType = {
     id: number;
     view: string;
     route: string;
     name: string;
+    class: string;
 }
 
 type MenuItemProp = {
@@ -11,10 +14,11 @@ type MenuItemProp = {
 }
 
 export default function MenuItem({currentView, menuItem}: MenuItemProp) {
-    const active: string = (menuItem.route.includes(currentView)) ? 'active' : '';
+    const active: boolean = menuItem.route.includes(currentView);
+    const menuItemClasses: string = classNames(active && 'active', menuItem.class);
+
     return (
-        menuItem &&
-        <li className={active} id={'id-' + menuItem.id} key={menuItem.id}><a href={menuItem.route}>{menuItem.name}</a></li>
+        <li className={menuItemClasses} key={menuItem.id}><a href={menuItem.route}>{menuItem.name}</a></li>
     );
 
 }

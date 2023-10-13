@@ -1,5 +1,6 @@
 import React from "react";
 import {Menu} from "./Menu";
+import {MenuFooter} from "./MenuFooter";
 
 type PageBottomProps = {
     view: string;
@@ -31,7 +32,6 @@ export function PageBottom({view}: PageBottomProps) {
     const texts = getFooterText(view);
     return (
         <footer>
-            <h1>{view}</h1>
             <header>
                 <h3>{texts.h3}</h3>
                 <h1 className="very-big"><a href={texts.url}>{texts.h1}</a></h1>
@@ -41,11 +41,7 @@ export function PageBottom({view}: PageBottomProps) {
                 <div className="bg-green"></div>
                 <div className="bg-lime"></div>
             </div>
-            <nav>
-                <div className="container">
-                    <Menu view={view} />
-                </div>
-            </nav>
+            <MenuFooter view={view} />
         </footer>
     )
 }
