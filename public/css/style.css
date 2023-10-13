@@ -1726,29 +1726,29 @@ footer nav .container ul.menu li:nth-child(6):after {
 /***
 HOME
 ***/
-body.view-home nav.main-nav a.btn.wire {
+div.view-home nav.main-nav a.btn.wire {
   margin: 40px 15px;
 }
-body.view-home nav.main-nav a.home {
+div.view-home nav.main-nav a.home {
   margin: 43px 15px;
 }
-body.view-home ul.menu li a {
+div.view-home ul.menu li a {
   padding: 50px 10px;
 }
-body.view-home header.hello {
+div.view-home header.hello {
   background-color: #ffffff;
 }
-body.view-home header.hello h1.big {
+div.view-home header.hello h1.big {
   text-align: left;
   color: #666666;
 }
-body.view-home header.hello h1.big a.text-red {
+div.view-home header.hello h1.big a.text-red {
   position: relative;
   color: #EC1E79;
   display: inline-block;
   border-bottom: 8px solid transparent;
 }
-body.view-home header.hello h1.big a.text-red:after {
+div.view-home header.hello h1.big a.text-red:after {
   content: ' ';
   display: block;
   height: 8px;
@@ -1759,25 +1759,25 @@ body.view-home header.hello h1.big a.text-red:after {
   background-color: #EC1E79;
   transition: all 150ms ease-out;
 }
-body.view-home header.hello h1.big a.text-red:hover:after {
+div.view-home header.hello h1.big a.text-red:hover:after {
   width: 100%;
 }
 @media (max-width: 767px) {
-  body.view-home header.hello h1.big a.text-red {
+  div.view-home header.hello h1.big a.text-red {
     display: inline;
     text-decoration: underline;
   }
-  body.view-home header.hello h1.big a.text-red:after {
+  div.view-home header.hello h1.big a.text-red:after {
     display: none;
   }
 }
-body.view-home header.hello h1.big a.text-blue {
+div.view-home header.hello h1.big a.text-blue {
   position: relative;
   color: #29abe2;
   display: inline-block;
   border-bottom: 8px solid transparent;
 }
-body.view-home header.hello h1.big a.text-blue:after {
+div.view-home header.hello h1.big a.text-blue:after {
   content: ' ';
   display: block;
   height: 8px;
@@ -1788,32 +1788,32 @@ body.view-home header.hello h1.big a.text-blue:after {
   background-color: #29abe2;
   transition: all 150ms ease-out;
 }
-body.view-home header.hello h1.big a.text-blue:hover:after {
+div.view-home header.hello h1.big a.text-blue:hover:after {
   width: 100%;
 }
 @media (max-width: 767px) {
-  body.view-home header.hello h1.big a.text-blue {
+  div.view-home header.hello h1.big a.text-blue {
     display: inline;
     text-decoration: underline;
   }
-  body.view-home header.hello h1.big a.text-blue:after {
+  div.view-home header.hello h1.big a.text-blue:after {
     display: none;
   }
 }
-body.view-home header.hello h3 {
+div.view-home header.hello h3 {
   position: relative;
   text-align: left;
   padding-left: 100px;
   margin-top: 70px;
 }
-body.view-home header.hello h3 img {
+div.view-home header.hello h3 img {
   position: absolute;
   width: 80px;
   height: auto;
   left: 0;
   top: 0;
 }
-body.view-home header.hello .us-logo {
+div.view-home header.hello .us-logo {
   text-indent: -999999em;
   display: inline-block;
   position: relative;
@@ -1823,17 +1823,17 @@ body.view-home header.hello .us-logo {
   margin-left: 35px;
   top: -20px;
 }
-body.view-home header.hello h3 {
+div.view-home header.hello h3 {
   margin-bottom: 35px;
 }
-body.view-home section.wa {
+div.view-home section.wa {
   background: url('../img/watshappweb.png') repeat;
   padding: 70px 0;
 }
-body.view-home section.wa h1 {
+div.view-home section.wa h1 {
   top: -35px;
 }
-body.view-home section.wa .dialog {
+div.view-home section.wa .dialog {
   padding: 20px;
   border-radius: 20px;
   background-color: #ffffff;
@@ -1841,7 +1841,7 @@ body.view-home section.wa .dialog {
   float: left;
   position: relative;
 }
-body.view-home section.wa .dialog h5 {
+div.view-home section.wa .dialog h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -1851,28 +1851,28 @@ body.view-home section.wa .dialog h5 {
   display: inline-block;
   color: #666666;
 }
-body.view-home section.wa .dialog h5.text-blue {
+div.view-home section.wa .dialog h5.text-blue {
   color: #29abe2;
 }
-body.view-home section.wa .dialog h5.spaced {
+div.view-home section.wa .dialog h5.spaced {
   padding: 0 10px;
   position: relative;
   top: -76px;
 }
-body.view-home section.wa .dialog h5.spaced:first-child {
+div.view-home section.wa .dialog h5.spaced:first-child {
   padding-left: 0;
 }
-body.view-home section.wa .dialog h5 span {
+div.view-home section.wa .dialog h5 span {
   display: inline-block;
   border-bottom: 3px solid transparent;
 }
-body.view-home section.wa .dialog h5 a {
+div.view-home section.wa .dialog h5 a {
   position: relative;
   color: #EC1E79;
   display: inline-block;
   border-bottom: 5px solid transparent;
 }
-body.view-home section.wa .dialog h5 a:after {
+div.view-home section.wa .dialog h5 a:after {
   content: ' ';
   display: block;
   height: 5px;
@@ -1883,25 +1883,25 @@ body.view-home section.wa .dialog h5 a:after {
   background-color: #EC1E79;
   transition: all 150ms ease-out;
 }
-body.view-home section.wa .dialog h5 a:hover:after {
+div.view-home section.wa .dialog h5 a:hover:after {
   width: 100%;
 }
 @media (max-width: 767px) {
-  body.view-home section.wa .dialog h5 a {
+  div.view-home section.wa .dialog h5 a {
     display: inline;
     text-decoration: underline;
   }
-  body.view-home section.wa .dialog h5 a:after {
+  div.view-home section.wa .dialog h5 a:after {
     display: none;
   }
 }
-body.view-home section.wa .dialog h5 a.text-green {
+div.view-home section.wa .dialog h5 a.text-green {
   position: relative;
   color: #5bbc2e;
   display: inline-block;
   border-bottom: 5px solid transparent;
 }
-body.view-home section.wa .dialog h5 a.text-green:after {
+div.view-home section.wa .dialog h5 a.text-green:after {
   content: ' ';
   display: block;
   height: 5px;
@@ -1912,19 +1912,19 @@ body.view-home section.wa .dialog h5 a.text-green:after {
   background-color: #5bbc2e;
   transition: all 150ms ease-out;
 }
-body.view-home section.wa .dialog h5 a.text-green:hover:after {
+div.view-home section.wa .dialog h5 a.text-green:hover:after {
   width: 100%;
 }
 @media (max-width: 767px) {
-  body.view-home section.wa .dialog h5 a.text-green {
+  div.view-home section.wa .dialog h5 a.text-green {
     display: inline;
     text-decoration: underline;
   }
-  body.view-home section.wa .dialog h5 a.text-green:after {
+  div.view-home section.wa .dialog h5 a.text-green:after {
     display: none;
   }
 }
-body.view-home section.wa .dialog.left:before {
+div.view-home section.wa .dialog.left:before {
   content: ' ';
   position: absolute;
   left: -50px;
@@ -1933,11 +1933,11 @@ body.view-home section.wa .dialog.left:before {
   height: 56px;
   background: url('../img/dialog-left.png') no-repeat;
 }
-body.view-home section.wa .dialog.right {
+div.view-home section.wa .dialog.right {
   float: right;
   background-color: #eeffe5;
 }
-body.view-home section.wa .dialog.right:after {
+div.view-home section.wa .dialog.right:after {
   content: ' ';
   position: absolute;
   top: 0;
@@ -1946,41 +1946,41 @@ body.view-home section.wa .dialog.right:after {
   height: 56px;
   background: url('../img/dialog-right.png') no-repeat;
 }
-body.view-home section.wa .dialog:last-child a {
+div.view-home section.wa .dialog:last-child a {
   display: inline;
   position: relative;
 }
-body.view-home section.wa .dialog + .dialog {
+div.view-home section.wa .dialog + .dialog {
   margin-top: 10px;
 }
-body.view-home section.wa .dialog.left + .right {
+div.view-home section.wa .dialog.left + .right {
   margin-top: -20px;
 }
-body.view-home section.wa .dialog.right + .left {
+div.view-home section.wa .dialog.right + .left {
   margin-top: 30px;
 }
-body.view-home section.why {
+div.view-home section.why {
   background-color: #f9f9f9;
   text-align: center;
 }
-body.view-home section.why h1 {
+div.view-home section.why h1 {
   margin-bottom: 70px;
 }
-body.view-home section.why h1 span {
+div.view-home section.why h1 span {
   white-space: nowrap;
 }
-body.view-home section.why img {
+div.view-home section.why img {
   width: 125px;
   height: 125px;
 }
-body.view-home section.why ul {
+div.view-home section.why ul {
   padding-left: 0;
   list-style: none;
 }
-body.view-home section.why ul li p {
+div.view-home section.why ul li p {
   text-align: center;
 }
-body.view-home section.why .btn {
+div.view-home section.why .btn {
   margin: 35px auto;
 }
 /***
@@ -2111,7 +2111,7 @@ a.btn-cuad:hover .btn:hover {
 /***
 SERVICE
 ***/
-body.view-service #main-menu li:first-child a:after {
+div.view-service #main-menu li:first-child a:after {
   position: absolute;
   z-index: 1;
   content: ' ';
@@ -2534,25 +2534,25 @@ main.why-hire-us section.reasons .row article img {
 /***
 GET QUOTE
 ***/
-body.view-get-a-quote main.get-a-quote,
-body.view-contact-us main.get-a-quote {
+div.view-get-a-quote main.get-a-quote,
+div.view-contact-us main.get-a-quote {
   margin-bottom: 115px;
   background-color: #ffffff;
 }
-body.view-get-a-quote main.get-a-quote > header,
-body.view-contact-us main.get-a-quote > header {
+div.view-get-a-quote main.get-a-quote > header,
+div.view-contact-us main.get-a-quote > header {
   background-color: #ffffff;
 }
-body.view-get-a-quote main.get-a-quote > header hr,
-body.view-contact-us main.get-a-quote > header hr {
+div.view-get-a-quote main.get-a-quote > header hr,
+div.view-contact-us main.get-a-quote > header hr {
   background-color: #b0e44f;
 }
-body.view-get-a-quote main.get-a-quote section.form,
-body.view-contact-us main.get-a-quote section.form {
+div.view-get-a-quote main.get-a-quote section.form,
+div.view-contact-us main.get-a-quote section.form {
   padding-top: 0;
 }
-body.view-get-a-quote main.get-a-quote header.thank-you,
-body.view-contact-us main.get-a-quote header.thank-you {
+div.view-get-a-quote main.get-a-quote header.thank-you,
+div.view-contact-us main.get-a-quote header.thank-you {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -2560,23 +2560,23 @@ body.view-contact-us main.get-a-quote header.thank-you {
   right: 0;
   height: 100%;
 }
-body.view-get-a-quote main.get-a-quote button[type=submit],
-body.view-contact-us main.get-a-quote button[type=submit] {
+div.view-get-a-quote main.get-a-quote button[type=submit],
+div.view-contact-us main.get-a-quote button[type=submit] {
   position: relative;
 }
-body.view-get-a-quote main.get-a-quote button[type=submit]:focus,
-body.view-contact-us main.get-a-quote button[type=submit]:focus,
-body.view-get-a-quote main.get-a-quote button[type=submit]:active,
-body.view-contact-us main.get-a-quote button[type=submit]:active {
+div.view-get-a-quote main.get-a-quote button[type=submit]:focus,
+div.view-contact-us main.get-a-quote button[type=submit]:focus,
+div.view-get-a-quote main.get-a-quote button[type=submit]:active,
+div.view-contact-us main.get-a-quote button[type=submit]:active {
   box-shadow: none;
 }
-body.view-get-a-quote main.get-a-quote form.sending button[type=submit],
-body.view-contact-us main.get-a-quote form.sending button[type=submit] {
+div.view-get-a-quote main.get-a-quote form.sending button[type=submit],
+div.view-contact-us main.get-a-quote form.sending button[type=submit] {
   transition: all 0.5s;
   background-color: #FF921E;
 }
-body.view-get-a-quote main.get-a-quote form.sending button[type=submit]:after,
-body.view-contact-us main.get-a-quote form.sending button[type=submit]:after {
+div.view-get-a-quote main.get-a-quote form.sending button[type=submit]:after,
+div.view-contact-us main.get-a-quote form.sending button[type=submit]:after {
   content: ' ';
   position: absolute;
   display: block;
@@ -2587,35 +2587,35 @@ body.view-contact-us main.get-a-quote form.sending button[type=submit]:after {
   top: 50%;
   transform: translateY(-50%);
 }
-body.view-get-a-quote footer,
-body.view-contact-us footer {
+div.view-get-a-quote footer,
+div.view-contact-us footer {
   background-color: #ffffff !important;
 }
-body.view-get-a-quote footer header,
-body.view-contact-us footer header {
+div.view-get-a-quote footer header,
+div.view-contact-us footer header {
   background-color: white;
 }
-body.view-get-a-quote footer nav,
-body.view-contact-us footer nav {
+div.view-get-a-quote footer nav,
+div.view-contact-us footer nav {
   background-color: #f9f9f9;
 }
-body.view-contact-us h2 {
+div.view-contact-us h2 {
   color: #FF921E;
 }
-body.view-contact-us .spacer {
+div.view-contact-us .spacer {
   margin-top: 70px;
 }
-body.view-contact-us .spacer p {
+div.view-contact-us .spacer p {
   line-height: 24px;
 }
-body.view-contact-us .spacer a {
+div.view-contact-us .spacer a {
   position: relative;
   color: #FF921E;
   display: inline-block;
   border-bottom: 2px solid transparent;
   margin-bottom: 5px;
 }
-body.view-contact-us .spacer a:after {
+div.view-contact-us .spacer a:after {
   content: ' ';
   display: block;
   height: 2px;
@@ -2626,19 +2626,19 @@ body.view-contact-us .spacer a:after {
   background-color: #FF921E;
   transition: all 150ms ease-out;
 }
-body.view-contact-us .spacer a:hover:after {
+div.view-contact-us .spacer a:hover:after {
   width: 100%;
 }
 @media (max-width: 767px) {
-  body.view-contact-us .spacer a {
+  div.view-contact-us .spacer a {
     display: inline;
     text-decoration: underline;
   }
-  body.view-contact-us .spacer a:after {
+  div.view-contact-us .spacer a:after {
     display: none;
   }
 }
-body.view-contact-us .spacer .tall {
+div.view-contact-us .spacer .tall {
   margin-bottom: 7px;
   display: block;
   color: #000;
@@ -3079,27 +3079,27 @@ main.project footer {
   background-color: inherit;
 }
 body.in-place main.project .project,
-body.view-project main.project .project {
+div.view-project main.project .project {
   transition: margin-top 1s ease;
 }
 body.in-place main.project .project h1,
-body.view-project main.project .project h1 {
+div.view-project main.project .project h1 {
   font-size: 60px;
   line-height: 72px;
   margin-top: 35px;
 }
 body.in-place main.project .project h3.subtitle,
-body.view-project main.project .project h3.subtitle {
+div.view-project main.project .project h3.subtitle {
   max-height: 150px;
   margin: 35px 0 70px;
   text-align: left;
 }
 body.in-place main.project h2,
-body.view-project main.project h2 {
+div.view-project main.project h2 {
   text-transform: uppercase;
 }
 body.in-place main.project h3,
-body.view-project main.project h3 {
+div.view-project main.project h3 {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   font-style: normal;
@@ -3110,7 +3110,7 @@ body.view-project main.project h3 {
   color: rgba(255, 255, 255, 0.75);
 }
 body.in-place main.project h3 strong,
-body.view-project main.project h3 strong {
+div.view-project main.project h3 strong {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   font-style: normal;
@@ -3118,25 +3118,25 @@ body.view-project main.project h3 strong {
   white-space: nowrap;
 }
 body.in-place main.project p,
-body.view-project main.project p,
+div.view-project main.project p,
 body.in-place main.project li,
-body.view-project main.project li {
+div.view-project main.project li {
   text-align: left;
   color: rgba(255, 255, 255, 0.75);
 }
 body.in-place main.project hr,
-body.view-project main.project hr {
+div.view-project main.project hr {
   margin: 70px 20%;
   background-color: transparent;
 }
 body.in-place main.project header.module,
-body.view-project main.project header.module {
+div.view-project main.project header.module {
   position: relative;
   min-height: 195px;
   margin-bottom: 35px;
 }
 body.in-place main.project header.module span.number,
-body.view-project main.project header.module span.number {
+div.view-project main.project header.module span.number {
   position: absolute;
   display: block;
   width: 100%;
@@ -3148,7 +3148,7 @@ body.view-project main.project header.module span.number {
   font-style: normal;
 }
 body.in-place main.project header.module h2,
-body.view-project main.project header.module h2 {
+div.view-project main.project header.module h2 {
   position: absolute;
   width: 100%;
   display: block;
@@ -3160,41 +3160,41 @@ body.view-project main.project header.module h2 {
   transform: translateY(-50%);
 }
 body.in-place main.project .phone,
-body.view-project main.project .phone {
+div.view-project main.project .phone {
   position: relative;
   margin: 30px 0;
 }
 body.in-place main.project .phone iframe,
-body.view-project main.project .phone iframe {
+div.view-project main.project .phone iframe {
   position: relative;
 }
 body.in-place main.project .phone.iphone,
-body.view-project main.project .phone.iphone {
+div.view-project main.project .phone.iphone {
   position: relative;
   width: 376px;
   height: 788px;
   background: url('../img/iphone-5.png') no-repeat;
 }
 body.in-place main.project .phone.iphone iframe,
-body.view-project main.project .phone.iphone iframe {
+div.view-project main.project .phone.iphone iframe {
   width: 320px;
   height: 568px;
   left: 31px;
   top: 113px;
 }
 body.in-place main.project ul.numbered-detail,
-body.view-project main.project ul.numbered-detail {
+div.view-project main.project ul.numbered-detail {
   list-style: none;
   margin-top: 35px;
   padding: 0;
 }
 body.in-place main.project ul.numbered-detail li,
-body.view-project main.project ul.numbered-detail li {
+div.view-project main.project ul.numbered-detail li {
   padding: 0 20px;
   position: relative;
 }
 body.in-place main.project ul.numbered-detail li p,
-body.view-project main.project ul.numbered-detail li p {
+div.view-project main.project ul.numbered-detail li p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -3205,14 +3205,14 @@ body.view-project main.project ul.numbered-detail li p {
   padding-top: 17px;
 }
 body.in-place main.project ul.numbered-detail li p span.h3,
-body.view-project main.project ul.numbered-detail li p span.h3 {
+div.view-project main.project ul.numbered-detail li p span.h3 {
   font-family: 'Roboto Slab', serif !important;
   font-weight: 300 !important;
   font-style: normal !important;
   color: rgba(255, 255, 255, 0.8);
 }
 body.in-place main.project ul.numbered-detail li p strong,
-body.view-project main.project ul.numbered-detail li p strong {
+div.view-project main.project ul.numbered-detail li p strong {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 28px;
@@ -3225,41 +3225,41 @@ body.view-project main.project ul.numbered-detail li p strong {
   top: 0;
 }
 body.in-place main.project ul.numbered-detail li img,
-body.view-project main.project ul.numbered-detail li img {
+div.view-project main.project ul.numbered-detail li img {
   max-width: 100%;
   height: auto;
   margin-bottom: 35px;
 }
 body.in-place main.project ul.numbered-detail.vertical p,
-body.view-project main.project ul.numbered-detail.vertical p {
+div.view-project main.project ul.numbered-detail.vertical p {
   padding-top: 4px;
 }
 body.in-place main.project.fixed-modal-navigation nav.modal-navigation,
-body.view-project main.project.fixed-modal-navigation nav.modal-navigation {
+div.view-project main.project.fixed-modal-navigation nav.modal-navigation {
   position: fixed;
   z-index: 5;
   margin-top: 0;
 }
-body.view-project main.project {
+div.view-project main.project {
   z-index: 2;
 }
-body.view-project main.project .project {
+div.view-project main.project .project {
   height: auto !important;
 }
-body.view-project main.project .project .image {
+div.view-project main.project .project .image {
   height: auto !important;
 }
-body.view-project main.project nav.modal-navigation {
+div.view-project main.project nav.modal-navigation {
   top: 0 !important;
   margin-top: 0 !important;
 }
-body.view-project main.project.fixed-modal-navigation nav.modal-navigation {
+div.view-project main.project.fixed-modal-navigation nav.modal-navigation {
   top: 0;
 }
-body.view-work.freeze {
+div.view-work.freeze {
   overflow: hidden !important;
 }
-body.view-work.freeze .project-modal {
+div.view-work.freeze .project-modal {
   display: block;
 }
 body.in-place {
@@ -6117,30 +6117,30 @@ main.error404 .msg {
     width: 100%;
     text-align: center;
   }
-  body.view-home header.hello h1.big {
+  div.view-home header.hello h1.big {
     display: block;
     position: relative;
     padding: 0 15px;
   }
-  body.view-home header.hello h3 {
+  div.view-home header.hello h3 {
     padding: 0 15px;
     padding-top: 80px;
     margin-bottom: 0;
   }
-  body.view-home section.wa {
+  div.view-home section.wa {
     display: none;
     padding: 15px;
   }
-  body.view-home section.wa .dialog.left {
+  div.view-home section.wa .dialog.left {
     margin-left: 35px;
   }
-  body.view-home section.wa .dialog.right {
+  div.view-home section.wa .dialog.right {
     margin-right: 35px;
   }
-  body.view-home section.why li h2 {
+  div.view-home section.why li h2 {
     margin-top: 0;
   }
-  body.view-home section.why li + li {
+  div.view-home section.why li + li {
     margin-top: 15px;
     padding-top: 15px;
     border-top: 1px solid #e4e4ea;
@@ -6195,52 +6195,52 @@ main.error404 .msg {
     line-height: 24px;
   }
   body.in-place main.project nav.modal-navigation .brand,
-  body.view-project main.project nav.modal-navigation .brand {
+  div.view-project main.project nav.modal-navigation .brand {
     display: none;
   }
   body.in-place main.project nav.modal-navigation .title,
-  body.view-project main.project nav.modal-navigation .title {
+  div.view-project main.project nav.modal-navigation .title {
     text-align: left;
     font-size: 13.44px;
     line-height: 16px;
   }
   body.in-place main.project header.module h2,
-  body.view-project main.project header.module h2 {
+  div.view-project main.project header.module h2 {
     font-size: 28px;
     line-height: 34px;
   }
   body.in-place main.project ul.numbered-detail li p,
-  body.view-project main.project ul.numbered-detail li p,
+  div.view-project main.project ul.numbered-detail li p,
   body.in-place main.project p,
-  body.view-project main.project p {
+  div.view-project main.project p {
     font-size: 14px;
     line-height: 17px;
   }
   body.in-place main.project p.h3-css,
-  body.view-project main.project p.h3-css,
+  div.view-project main.project p.h3-css,
   body.in-place main.project h3,
-  body.view-project main.project h3 {
+  div.view-project main.project h3 {
     font-size: 16.8px;
     line-height: 20px;
     padding: 0 15px;
   }
   body.in-place main.project img.phone,
-  body.view-project main.project img.phone {
+  div.view-project main.project img.phone {
     max-width: 90%;
   }
   body.in-place main.project .ms,
-  body.view-project main.project .ms {
+  div.view-project main.project .ms {
     margin-left: 0;
     margin-right: 0;
   }
   body.in-place main.project a.btn-link,
-  body.view-project main.project a.btn-link {
+  div.view-project main.project a.btn-link {
     font-size: 14px !important;
     line-height: 15px !important;
     padding: 20px 0 !important;
   }
   body.in-place main.project a.btn-link span:not(.text-danger),
-  body.view-project main.project a.btn-link span:not(.text-danger) {
+  div.view-project main.project a.btn-link span:not(.text-danger) {
     margin-top: 0 !important;
     display: inline-block;
     border-right: 3px solid #fff;
@@ -6249,38 +6249,38 @@ main.error404 .msg {
     height: 15px;
   }
   body.in-place main.project a.btn-link span:not(.text-danger).right,
-  body.view-project main.project a.btn-link span:not(.text-danger).right {
+  div.view-project main.project a.btn-link span:not(.text-danger).right {
     transform: rotate(-45deg);
   }
   body.in-place main.project a.btn-link span:not(.text-danger).left,
-  body.view-project main.project a.btn-link span:not(.text-danger).left {
+  div.view-project main.project a.btn-link span:not(.text-danger).left {
     transform: rotate(135deg);
   }
   body.in-place main.project a.btn-link span:not(.text-danger).up,
-  body.view-project main.project a.btn-link span:not(.text-danger).up {
+  div.view-project main.project a.btn-link span:not(.text-danger).up {
     transform: rotate(-135deg);
   }
   body.in-place main.project a.btn-link span:not(.text-danger).down,
-  body.view-project main.project a.btn-link span:not(.text-danger).down {
+  div.view-project main.project a.btn-link span:not(.text-danger).down {
     transform: rotate(45deg);
   }
   body.in-place main.project a.btn-link .text-danger,
-  body.view-project main.project a.btn-link .text-danger {
+  div.view-project main.project a.btn-link .text-danger {
     display: block;
     width: 100%;
   }
   body.in-place main.project .project h1,
-  body.view-project main.project .project h1 {
+  div.view-project main.project .project h1 {
     margin: 0;
     font-size: 24px;
     line-height: 29px;
   }
   body.in-place main.project .project h1 span,
-  body.view-project main.project .project h1 span {
+  div.view-project main.project .project h1 span {
     white-space: normal;
   }
   body.in-place main.project .project h3.subtitle,
-  body.view-project main.project .project h3.subtitle {
+  div.view-project main.project .project h3.subtitle {
     margin: 0;
     text-align: left;
     padding: 15px;
@@ -6288,7 +6288,7 @@ main.error404 .msg {
     line-height: 20px;
   }
   body.in-place main.project .project .image,
-  body.view-project main.project .project .image {
+  div.view-project main.project .project .image {
     height: auto;
   }
   main.about-us section.clients .col-md-4 + .col-md-4 {
@@ -6443,12 +6443,12 @@ main.error404 .msg {
     white-space: normal;
     display: inline !important;
   }
-  body.view-service #main-menu li:first-child a {
+  div.view-service #main-menu li:first-child a {
     background-color: #FFF0B3;
     color: #FF921E;
     font-weight: bold;
   }
-  body.view-service #main-menu li:first-child a:after {
+  div.view-service #main-menu li:first-child a:after {
     display: none;
   }
 }
