@@ -1,5 +1,5 @@
 export default function AboutUs() {
-    const years = (new Date()).getFullYear() - 2004;
+    const years = (new Date()).getFullYear() - 2003;
     return (
         <main className="about-us">
             <header>

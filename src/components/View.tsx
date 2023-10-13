@@ -1,5 +1,6 @@
 import Home from "./views/Home";
 import AboutUs from "./views/AboutUs";
+import WhyUs from "./views/WhyUs";
 
 export type ViewProps = {
     view: string;
@@ -18,6 +19,10 @@ export default function View({view}: ViewProps) {
             break;
         case 'about-us':
             currentView = <AboutUs/>;
+            break;
+        case 'why-hire-freelance-development':
+        case 'why-hire-us':
+            currentView = <WhyUs/>;
             break;
         case 'contact':
             currentView = <Home/>;
