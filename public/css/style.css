@@ -905,6 +905,13 @@ FONTS FACE LIKE
 .bg-green-light {
   background-color: #6bdc37;
 }
+.text-black {
+  color: #000;
+}
+.text-strong-black {
+  color: #000;
+  font-weight: bold;
+}
 .text-blue {
   color: #29abe2;
 }
@@ -1488,45 +1495,45 @@ nav.main-nav.main-navigation--sticky.main-navigation--show {
   top: 0 !important;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
-body > nav + main {
+body > div > nav + main {
   position: relative;
   z-index: 2;
   margin-bottom: 577px;
   border-bottom: 1px solid #ccccd2;
 }
-body > nav + main > header h3 {
+body > div > nav + main > header h3 {
   position: relative;
   text-align: left;
   padding-left: 100px;
   margin-top: 70px;
 }
-body > nav + main > header h3 span.star {
+body > div > nav + main > header h3 span.star {
   top: 50%;
   transform: translateY(-50%);
 }
-body > nav + main > header,
-body > nav + main section {
+body > div > nav + main > header,
+body > div > nav + main section {
   padding: 70px 0;
 }
-body > nav + main > header hr,
-body > nav + main section hr {
+body > div > nav + main > header hr,
+body > div > nav + main section hr {
   width: 160px;
   height: 3px;
   background-color: #808080;
   margin: 20px auto;
   border: none;
 }
-body > nav + main > header h1 span,
-body > nav + main section h1 span,
-body > nav + main > header h3 span,
-body > nav + main section h3 span {
+body > div > nav + main > header h1 span,
+body > div > nav + main section h1 span,
+body > div > nav + main > header h3 span,
+body > div > nav + main section h3 span {
   white-space: nowrap;
 }
-body > nav + main > header {
+body > div > nav + main > header {
   padding-top: 150px;
   margin-top: -80px;
 }
-body > nav + main > header h1 {
+body > div > nav + main > header h1 {
   margin: 0 0 20px;
 }
 footer {
@@ -1797,6 +1804,64 @@ div.view-home header.hello h1.big a.text-blue:hover:after {
     text-decoration: underline;
   }
   div.view-home header.hello h1.big a.text-blue:after {
+    display: none;
+  }
+}
+div.view-home header.hello h1.big a.text-green {
+  position: relative;
+  color: #5bbc2e;
+  display: inline-block;
+  border-bottom: 8px solid transparent;
+}
+div.view-home header.hello h1.big a.text-green:after {
+  content: ' ';
+  display: block;
+  height: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  background-color: #5bbc2e;
+  transition: all 150ms ease-out;
+}
+div.view-home header.hello h1.big a.text-green:hover:after {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  div.view-home header.hello h1.big a.text-green {
+    display: inline;
+    text-decoration: underline;
+  }
+  div.view-home header.hello h1.big a.text-green:after {
+    display: none;
+  }
+}
+div.view-home header.hello h1.big a.text-yellow {
+  position: relative;
+  color: #FFD112;
+  display: inline-block;
+  border-bottom: 8px solid transparent;
+}
+div.view-home header.hello h1.big a.text-yellow:after {
+  content: ' ';
+  display: block;
+  height: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  background-color: #FFD112;
+  transition: all 150ms ease-out;
+}
+div.view-home header.hello h1.big a.text-yellow:hover:after {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  div.view-home header.hello h1.big a.text-yellow {
+    display: inline;
+    text-decoration: underline;
+  }
+  div.view-home header.hello h1.big a.text-yellow:after {
     display: none;
   }
 }
@@ -2379,7 +2444,7 @@ a.portfolio.blue {
   background-color: #29abe2;
 }
 /***
-ABOUT US
+ABOUT ME
 ***/
 main.about-us > header {
   background-color: #ffffff;
@@ -5821,34 +5886,34 @@ main.error404 .msg {
     margin-top: 15px;
     margin-bottom: 20px;
   }
-  body > nav + main {
+  body > div > nav + main {
     padding-top: 110px;
     margin-bottom: 0;
   }
-  body > nav + main > header {
+  body > div > nav + main > header {
     padding: 70px 0 35px;
     margin-top: -110px;
   }
-  body > nav + main > header h1 span,
-  body > nav + main > header h3 span {
+  body > div > nav + main > header h1 span,
+  body > div > nav + main > header h3 span {
     white-space: normal;
   }
-  body > nav + main > header h3 {
+  body > div > nav + main > header h3 {
     text-align: center;
     padding: 0 15px;
     padding-top: 90px;
     margin-top: 15px;
     margin-bottom: 0;
   }
-  body > nav + main > header h3 span.star {
+  body > div > nav + main > header h3 span.star {
     top: 0;
     margin-left: 50%;
     transform: translateX(-50%);
   }
-  body > nav + main > header h1.big {
+  body > div > nav + main > header h1.big {
     padding: 0 15px;
   }
-  body > nav + main section {
+  body > div > nav + main section {
     padding: 15px 0;
   }
   nav.main-nav {
@@ -6457,7 +6522,13 @@ main.error404 .msg {
 */
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media (max-width: 767px) {
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .headline-stories .col-md-7 {
@@ -6468,3 +6539,5 @@ main.error404 .msg {
   }
 }
 /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

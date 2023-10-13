@@ -12,13 +12,17 @@ export default function View({view}: ViewProps) {
         </main>
     );
     switch (view) {
-        case 'home': currentView = <Home />; break;
-        case 'contact': currentView = <Home />; break;
+        case 'home':
+            currentView = <Home/>;
+            break;
+        case 'contact':
+            currentView = <Home/>;
+            break;
     }
 
     return (
-        <main>
-            {currentView}
-        </main>
+        <>
+        {currentView}
+        </>
     );
 }

@@ -1,21 +1,16 @@
 export default function Home() {
     return (
-        <div>
+        <main>
             <header className="hello">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-10 col-md-offset-1">
-                            <h1 className="big"><a className="text-green"
-                                                   href="/contact-me">Hello!</a> <span>I'm Diego,</span>
-                                <span>a <a className="text-yellow"
-                                           href="/why-hire-freelance-development">freelance</a>
-                            <a className="text-red"
-                               href="/freelance-software-development-services">full-stack</a></span>
-                                <a className="text-blue"
-                                   href="/work">software&nbsp;developer.</a></h1>
+                            <h1 className="big"><a className="text-green" href="/contact-me">Hello!</a> <span>I'm Diego,</span>
+                                <span>a <a className="text-yellow" href="/why-hire-freelance-development">freelance</a>
+                            <a className="text-red" href="/freelance-software-development-services">full-stack</a></span>
+                                <a className="text-blue" href="/work">software&nbsp;developer.</a></h1>
                             <h3><span className="star full"></span>
-                                My goal is to translate my clients projects ideas into code and deliver solid
-                                state-of-the-art web applications.</h3>
+                                My goal is to translate my clients projects ideas into code and deliver solid state-of-the-art web applications.</h3>
                         </div>
                     </div>
                 </div>
@@ -90,6 +85,6 @@ export default function Home() {
             <div className="convinced">
                 <h1>Not sure why should be <a href="/get-a-quote">hiring me</a> yet?</h1>
             </div>
-        </div>
+        </main>
     )
 }

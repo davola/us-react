@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './App.css';
 import PageTop from "./components/PageTop";
 import View from "./components/View";
 import {PageBottom} from "./components/PageBottom";
