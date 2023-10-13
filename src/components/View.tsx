@@ -1,4 +1,5 @@
 import Home from "./views/Home";
+import AboutUs from "./views/AboutUs";
 
 export type ViewProps = {
     view: string;
@@ -15,6 +16,9 @@ export default function View({view}: ViewProps) {
         case 'home':
             currentView = <Home/>;
             break;
+        case 'about-us':
+            currentView = <AboutUs/>;
+            break;
         case 'contact':
             currentView = <Home/>;
             break;
@@ -22,7 +26,7 @@ export default function View({view}: ViewProps) {
 
     return (
         <>
-        {currentView}
+            {currentView}
         </>
     );
 }
