@@ -3,7 +3,7 @@ import {menuItems} from "../dara/Menu";
 import MenuItem from "./MenuItem";
 import React from "react";
 
-export function Menu({view}: ViewProps) {
+export function Menu({view, subView}: ViewProps) {
     const topMenuItems = menuItems.filter((value, idx) => idx != 0 );
     const liMenuItems = topMenuItems.map(menuItem =>
         <MenuItem currentView={view} menuItem={menuItem}/>

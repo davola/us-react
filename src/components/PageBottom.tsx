@@ -1,8 +1,7 @@
 import React from "react";
-import {Menu} from "./Menu";
 import {MenuFooter} from "./MenuFooter";
 
-type PageBottomProps = {
+export type PageBottomProps = {
     view: string;
 }
 

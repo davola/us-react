@@ -5,9 +5,10 @@ import Services from "./views/Services";
 
 export type ViewProps = {
     view: string;
+    subView: string;
 }
 
-export default function View({view}: ViewProps) {
+export default function View({view, subView}: ViewProps) {
     let currentView = (
         <main>
             <h2>Default view in use is:</h2>

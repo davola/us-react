@@ -2,8 +2,9 @@ import {ViewProps} from "./View";
 import {menuItems} from "../dara/Menu";
 import MenuItem from "./MenuItem";
 import React from "react";
+import {PageBottomProps} from "./PageBottom";
 
-export function MenuFooter({view}: ViewProps) {
+export function MenuFooter({view}: PageBottomProps) {
     const liMenuItems = menuItems.map(menuItem => {
             return (
                 <MenuItem currentView={view} menuItem={menuItem}/>
