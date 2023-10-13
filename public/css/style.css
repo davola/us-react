@@ -1,5 +1,3 @@
-extend ' .clearfix' has no matches
-extend ' .clearfix' has no matches
 /*
 Developed with Love by underSCREEN
 http://underscreen.com
@@ -1514,7 +1512,7 @@ body > nav + main > header hr,
 body > nav + main section hr {
   width: 160px;
   height: 3px;
-  background-color: gray;
+  background-color: #808080;
   margin: 20px auto;
   border: none;
 }

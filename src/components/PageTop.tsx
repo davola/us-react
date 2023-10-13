@@ -1,5 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import MenuItem, {MenuItemType} from "./MenuItem";
+
+type PageTopProp = {
+    view: string;
+}
 
 const menuItems: MenuItemType[] = [
     {
@@ -40,31 +44,30 @@ const menuItems: MenuItemType[] = [
     },
 ];
 
-class PageTop extends Component {
-    render() {
-        const liMenuItems = menuItems.map(menuItem =>
-            <MenuItem {...menuItem} />
-        );
-        return (
-            <nav className="main-nav" data-controller="Sticky">
-                <div className="container">
-                    <a data-controller="MenuMobile" href="#" className="menu-mobile">
-                        <span className="bar"></span>
-                    </a>
-                    <a href="/" className="home">
-                        <img src="/img/underscreen-logo.png" alt="underSCREEN"/>
-                    </a>
-                    <ul id="main-menu" className="menu">
-                        {liMenuItems}
-                    </ul>
-                    <a href="<?php echo $_r['base']; ?>/get-a-quote"
-                       className="btn wire <?php if ( $view == 'get-a-quote') echo 'active'; ?>">
-                        Get a quote
-                    </a>
-                </div>
-            </nav>
-        );
-    }
+function PageTop({view}:PageTopProp)
+{
+    const liMenuItems = menuItems.map(menuItem =>
+        <MenuItem currentView={view} menuItem={menuItem} />
+    );
+    return (
+        <nav className="main-nav" data-controller="Sticky">
+            <div className="container">
+                <a data-controller="MenuMobile" href="#" className="menu-mobile">
+                    <span className="bar"></span>
+                </a>
+                <a href="/" className="home">
+                    <img src="/img/underscreen-logo.png" alt="underSCREEN"/>
+                </a>
+                <ul id="main-menu" className="menu">
+                    {liMenuItems}
+                </ul>
+                <a href="/get-a-quote"
+                   className="btn wire <?php if ( $view == 'get-a-quote') echo 'active'; ?>">
+                    Get a quote
+                </a>
+            </div>
+        </nav>
+    );
 }
 
 export default PageTop;

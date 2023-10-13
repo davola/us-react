@@ -1,5 +1,12 @@
-export default function View() {
+type ViewProps = {
+    view: string;
+}
+
+export default function View({view}: ViewProps) {
     return (
-        <h1>This is VIEW</h1>
+        <div>
+            <h2>Current VIEW is</h2>
+            <h1>{view}</h1>
+        </div>
     );
 }
