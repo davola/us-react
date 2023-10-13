@@ -1,5 +1,6 @@
 export type DataServiceType = {
     isMain: boolean;
+    subView: string;
     class: string;
     image: string;
     title: string;
@@ -12,6 +13,7 @@ export type DataServiceType = {
 export const DataServices:DataServiceType[] = [
     {
         isMain: true,
+        subView: 'web-applications',
         class: "web-application",
         image: "/img/web-application-development.svg",
         title: "<span>Web application</span> <span class='display-block'>development</span>",
@@ -22,6 +24,7 @@ export const DataServices:DataServiceType[] = [
     },
     {
         isMain: true,
+        subView: 'mobile-cross-platform-applications',
         class: "mobile-cross-platform",
         image: "/img/cross-platform-development.svg",
         title: "<span>Mobile cross-platform</span> <span style='display:block;'>application development</span>",
@@ -32,6 +35,7 @@ export const DataServices:DataServiceType[] = [
     },
     {
         isMain: true,
+        subView: 'e-commerce-websites',
         class: "e-commerce",
         image: "/img/online-store-development.svg",
         title: "<span>E-commerce</span> <span class='display-block'>development</span>",
@@ -42,6 +46,7 @@ export const DataServices:DataServiceType[] = [
     },
     {
         isMain: true,
+        subView: 'wordpress-and-silverstripe-responsive-websites',
         class: "open-source",
         image: "/img/open-source-cms-development.svg",
         title: "<span>Responsive website</span> <span class='display-block'>development</span>",

@@ -2,6 +2,7 @@ import Home from "./views/Home";
 import AboutUs from "./views/AboutUs";
 import WhyUs from "./views/WhyUs";
 import Services from "./views/Services";
+import Service from "./views/Service";
 
 export type ViewProps = {
     view: string;
@@ -31,6 +32,9 @@ export default function View({view, subView}: ViewProps) {
             break;
         case 'freelance-software-development-services':
             currentView = <Services/>;
+            break;
+        case 'service':
+            currentView = <Service subView={subView}/>;
             break;
     }
 
