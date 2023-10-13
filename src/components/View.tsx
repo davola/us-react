@@ -1,6 +1,6 @@
 import Home from "./views/Home";
 
-type ViewProps = {
+export type ViewProps = {
     view: string;
 }
 
