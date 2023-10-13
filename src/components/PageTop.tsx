@@ -51,7 +51,7 @@ class PageTop extends Component {
                     <a data-controller="MenuMobile" href="#" className="menu-mobile">
                         <span className="bar"></span>
                     </a>
-                    <a href="%PUBLIC_URL%" className="home">
+                    <a href="/" className="home">
                         <img src="/img/underscreen-logo.png" alt="underSCREEN"/>
                     </a>
                     <ul id="main-menu" className="menu">
