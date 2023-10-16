@@ -8,7 +8,7 @@ export function ServiceItems() {
     )
 
     return (
-        <div className="col-md-6">
+        <div className="row">
             {items}
         </div>
     )
@@ -16,12 +16,14 @@ export function ServiceItems() {
 
 export function ServiceItem({item}: { item: DataServiceType }) {
     return (
-        <a className="btn-cuad" href={item.link}>
-            <img src={item.image} alt={item.title}/>
-            <h2>{parse(item.title)}</h2>
-            <h3>{parse(item.desc)}</h3>
-            <div className="btn wire">Learn more</div>
-        </a>
+        <div className="col-md-6">
+            <a className="btn-cuad" href={item.link}>
+                <img src={item.image} alt={item.title}/>
+                <h2>{parse(item.title)}</h2>
+                <h3>{parse(item.desc)}</h3>
+                <div className="btn wire">Learn more</div>
+            </a>
+        </div>
     )
 }
 
@@ -53,9 +55,7 @@ export default function Services() {
                 <div className="container">
                     <h1>Freelance software development</h1>
                     <br/>
-                    <div className="row">
-                        <ServiceItems />
-                    </div>
+                    <ServiceItems/>
                 </div>
             </section>
         </main>
