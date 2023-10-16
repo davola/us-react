@@ -4,7 +4,7 @@ export default function Solarcity() {
               style={{width: "100%", height: "100%", top: "0px", left: "0px"}}>
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Solarcity - Solar power company
@@ -23,7 +23,7 @@ export default function Solarcity() {
                 </div>
 
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/solarcity.open-source.jpg" alt=""/>
+                    <img src="/uploads/project/solarcity.open-source.jpg" alt=""/>
                 </div>
                 <div className="container-fluid">
                     <hr/>
@@ -40,7 +40,7 @@ export default function Solarcity() {
                                     a blog.</p>
                             </div>
                             <div className="col-md-4">
-                                <img src="https://underscreen.com/uploads/logos/400x200/silverstripe.png" alt=""/>
+                                <img src="/uploads/logos/400x200/silverstripe.png" alt=""/>
                             </div>
                         </div>
                     </section>

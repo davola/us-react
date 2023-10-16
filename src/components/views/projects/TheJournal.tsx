@@ -4,7 +4,7 @@ export default function TheJournal(){
 
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     The Journal - Early detection program for depression
@@ -27,7 +27,7 @@ export default function TheJournal(){
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/thejournal.app.jpg" alt="" />
+                    <img src="/uploads/project/thejournal.app.jpg" alt="" />
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ export default function TheJournal(){
                                 <h3 className="text-left"><br />I participate in the development process of this webapp with Google’s AngularJS Framework.</h3>
                             </div>
                             <div className="col-md-6">
-                                <img src="https://underscreen.com/uploads/logos/400x200/angular.png" alt="" />
+                                <img src="/uploads/logos/400x200/angular.png" alt="" />
                             </div>
                         </div>
                         <h3><br />I developed all the different components in the book, including:</h3>
@@ -100,31 +100,31 @@ export default function TheJournal(){
                                         </style>
                                         <div className="carousel-inner" role="listbox">
                                             <div className="item active">
-                                                <img src="https://underscreen.com/uploads/project/journa-drag-n-drop.jpg" />
+                                                <img src="/uploads/project/journa-drag-n-drop.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/journal-brain-food.jpg" />
+                                                <img src="/uploads/project/journal-brain-food.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/journal-calendar.jpg" />
+                                                <img src="/uploads/project/journal-calendar.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/journal-invite-a-friend.jpg" />
+                                                <img src="/uploads/project/journal-invite-a-friend.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/journal-list-problems.jpg" />
+                                                <img src="/uploads/project/journal-list-problems.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/journal-receipe.jpg" />
+                                                <img src="/uploads/project/journal-receipe.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/journal-sleep-routine.jpg" />
+                                                <img src="/uploads/project/journal-sleep-routine.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                         </div>

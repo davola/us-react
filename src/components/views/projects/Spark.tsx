@@ -4,7 +4,7 @@ export default function Spark(){
 
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Spark - Snapped mobile application
@@ -21,7 +21,7 @@ export default function Spark(){
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/snapped.app.jpg" alt="" />
+                    <img src="/uploads/project/snapped.app.jpg" alt="" />
                 </div>
             </div>
 
@@ -39,13 +39,13 @@ export default function Spark(){
                             <div className="col-md-10 col-md-offset-1">
                                 <ul className="numbered-detail">
                                     <li className="col-md-4">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/jquery-mobile-w.png" alt="" />
+                                        <img src="/uploads/logos/400x200/jquery-mobile-w.png" alt="" />
                                             <p><strong>01</strong> HTML mockup &amp; JavaScript development with jQuery Mobile Framework</p></li>
                                     <li className="col-md-4">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/cordoba-white.png" alt="" />
+                                        <img src="/uploads/logos/400x200/cordoba-white.png" alt="" />
                                             <p><strong>02</strong> Mobile App Building for Android, iOS &amp; Windows phone with Apache CORDOVA Framework</p></li>
                                     <li className="col-md-4">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/push-woosh.png" alt="" />
+                                        <img src="/uploads/logos/400x200/push-woosh.png" alt="" />
                                             <p><strong>03</strong> Push notifications framework</p>
                                     </li>
                                 </ul>
@@ -111,27 +111,27 @@ export default function Spark(){
                                         </style>
                                         <div className="carousel-inner" role="listbox">
                                             <div className="item active">
-                                                <img src="https://underscreen.com/uploads/project/spark-01-photo.jpg" />
+                                                <img src="/uploads/project/spark-01-photo.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/spark-02-choose-layout.jpg" />
+                                                <img src="/uploads/project/spark-02-choose-layout.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/spark-03-position-stencil.jpg" />
+                                                <img src="/uploads/project/spark-03-position-stencil.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/spark-04-tint-stencil.jpg" />
+                                                <img src="/uploads/project/spark-04-tint-stencil.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/spark-06-add-tags.jpg" />
+                                                <img src="/uploads/project/spark-06-add-tags.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="https://underscreen.com/uploads/project/spark-06-upload-photo.jpg" />
+                                                <img src="/uploads/project/spark-06-upload-photo.jpg" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                         </div>
@@ -160,7 +160,7 @@ export default function Spark(){
                                         <p className="h3-css text-left">I integrated the Pushwoosh 3rd party framework for handling the cross-platforms notifications.</p>
                                     </div>
                                     <div className="col-md-6">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/push-woosh.png" alt="" />
+                                        <img src="/uploads/logos/400x200/push-woosh.png" alt="" />
                                     </div>
                                 </div>
                             </section>

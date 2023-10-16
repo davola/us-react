@@ -3,7 +3,7 @@ export default function DonMario(){
         <main className="project donmario static-modal-navigation" data-controller="MainProject" style={{width: "100%", height: "100%", top: "0px", left: "0px"}}>
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Don Mario - Productivity App
@@ -19,7 +19,7 @@ export default function DonMario(){
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/donmario.app.jpg" alt="" />
+                    <img src="/uploads/project/donmario.app.jpg" alt="" />
                 </div>
 
                 <div className="container-fluid">
@@ -33,16 +33,16 @@ export default function DonMario(){
                             <div className="row">
                                 <ul className="numbered-detail ms">
                                     <li className="col-md-3">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/ui-ux.png" alt="" />
+                                        <img src="/uploads/logos/400x200/ui-ux.png" alt="" />
                                             <p><strong>01</strong> Participated in the UX/UI Design process</p></li>
                                     <li className="col-md-3">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/jquery-mobile-w.png" alt="" />
+                                        <img src="/uploads/logos/400x200/jquery-mobile-w.png" alt="" />
                                             <p><strong>02</strong> HTML mockup &amp; JavaScript development with jQuery Mobile Framework</p></li>
                                     <li className="col-md-3">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/cordoba-white.png" alt="" />
+                                        <img src="/uploads/logos/400x200/cordoba-white.png" alt="" />
                                             <p><strong>03</strong> Mobile App Building for Android, iOS &amp; Windows phone with Apache CORDOVA Framework</p></li>
                                     <li className="col-md-3">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/symfony.png" alt="" />
+                                        <img src="/uploads/logos/400x200/symfony.png" alt="" />
                                             <p><strong>04</strong> Backend &amp; API development with Symfony Framework</p></li>
                                 </ul>
                             </div>
@@ -64,9 +64,9 @@ export default function DonMario(){
                                 <div className="row mb">
                                     <div className="col-md-10 col-md-offset-1">
                                         <div className="row text-center">
-                                            <div className="col-md-4"><img className="phone" src="https://underscreen.com/uploads/project/donmario.product.1-3.jpg" alt="" /></div>
-                                            <div className="col-md-4"><img className="phone" src="https://underscreen.com/uploads/project/donmario.product.2-3.jpg" alt="" /></div>
-                                            <div className="col-md-4"><img className="phone" src="https://underscreen.com/uploads/project/donmario.product.3-3.jpg" alt="" /></div>
+                                            <div className="col-md-4"><img className="phone" src="/uploads/project/donmario.product.1-3.jpg" alt="" /></div>
+                                            <div className="col-md-4"><img className="phone" src="/uploads/project/donmario.product.2-3.jpg" alt="" /></div>
+                                            <div className="col-md-4"><img className="phone" src="/uploads/project/donmario.product.3-3.jpg" alt="" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@ export default function DonMario(){
                                             </ul>
                                         </div>
                                         <div className="col-md-4">
-                                            <img className="phone" src="https://underscreen.com/uploads/project/donmario.seed.calculator.jpg" alt="" />
+                                            <img className="phone" src="/uploads/project/donmario.seed.calculator.jpg" alt="" />
                                         </div>
                                     </div>
                                 </section>
@@ -105,10 +105,10 @@ export default function DonMario(){
                                             <div className="col-md-10 col-md-offset-1">
                                                 <div className="row">
                                                     <div className="col-md-4">
-                                                        <img className="phone" src="https://underscreen.com/uploads/project/donmario.dealer.jpg" alt="" />
+                                                        <img className="phone" src="/uploads/project/donmario.dealer.jpg" alt="" />
                                                     </div>
                                                     <div className="col-md-4">
-                                                        <img className="phone" src="https://underscreen.com/uploads/project/donmario.dealer.results.jpg" alt="" />
+                                                        <img className="phone" src="/uploads/project/donmario.dealer.results.jpg" alt="" />
                                                     </div>
                                                     <div className="col-md-4">
                                                         <p className="mt2">&nbsp;</p>
@@ -133,9 +133,9 @@ export default function DonMario(){
                                             <div className="row mb">
                                                 <div className="col-md-10 col-md-offset-1">
                                                     <div className="row text-center">
-                                                        <div className="col-md-4"><img className="phone" src="https://underscreen.com/uploads/project/donmario.plagues.share.jpg" alt=""/></div>
-                                                        <div className="col-md-4"><img className="phone" src="https://underscreen.com/uploads/project/donmario.videos.share.jpg" alt=""/></div>
-                                                        <div className="col-md-4"><img className="phone" src="https://underscreen.com/uploads/project/donmario.share.jpg" alt=""/></div>
+                                                        <div className="col-md-4"><img className="phone" src="/uploads/project/donmario.plagues.share.jpg" alt=""/></div>
+                                                        <div className="col-md-4"><img className="phone" src="/uploads/project/donmario.videos.share.jpg" alt=""/></div>
+                                                        <div className="col-md-4"><img className="phone" src="/uploads/project/donmario.share.jpg" alt=""/></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -180,27 +180,27 @@ export default function DonMario(){
                                                             
                                                             <div className="carousel-inner" role="listbox">
                                                                 <div className="item">
-                                                                    <img src="https://underscreen.com/uploads/project/dm-0.jpg" />
+                                                                    <img src="/uploads/project/dm-0.jpg" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item active">
-                                                                    <img src="https://underscreen.com/uploads/project/dm-1.jpg" />
+                                                                    <img src="/uploads/project/dm-1.jpg" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="https://underscreen.com/uploads/project/dm-2.jpg" />
+                                                                    <img src="/uploads/project/dm-2.jpg" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="https://underscreen.com/uploads/project/dm-3.jpg" />
+                                                                    <img src="/uploads/project/dm-3.jpg" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="https://underscreen.com/uploads/project/dm-4.jpg" />
+                                                                    <img src="/uploads/project/dm-4.jpg" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="https://underscreen.com/uploads/project/dm-5.jpg" />
+                                                                    <img src="/uploads/project/dm-5.jpg" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                             </div>

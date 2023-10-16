@@ -5,7 +5,7 @@ export default function Farmacity() {
 
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Farmacity - Press kit mobile app
@@ -22,7 +22,7 @@ export default function Farmacity() {
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/farmacity.app.jpg" alt=""/>
+                    <img src="/uploads/project/farmacity.app.jpg" alt=""/>
                 </div>
             </div>
 
@@ -41,16 +41,16 @@ export default function Farmacity() {
                         <div className="col-md-10 col-md-offset-1">
                             <ul className="numbered-detail">
                                 <li className="col-md-4">
-                                    <img src="https://underscreen.com/uploads/logos/400x200/jquery-mobile-w.png"
+                                    <img src="/uploads/logos/400x200/jquery-mobile-w.png"
                                          alt=""/>
                                     <p><strong>01</strong> HTML mockup &amp; JavaScript development with jQuery Mobile
                                         Framework</p></li>
                                 <li className="col-md-4">
-                                    <img src="https://underscreen.com/uploads/logos/400x200/cordoba-white.png" alt=""/>
+                                    <img src="/uploads/logos/400x200/cordoba-white.png" alt=""/>
                                     <p><strong>02</strong> Mobile App Building for Android, iOS &amp; Windows phone with
                                         Apache CORDOVA Framework</p></li>
                                 <li className="col-md-4">
-                                    <img src="https://underscreen.com/uploads/logos/400x200/angular.png" alt=""/>
+                                    <img src="/uploads/logos/400x200/angular.png" alt=""/>
                                     <p><strong>03</strong> Content management system with PHP and MySQL</p>
                                 </li>
                             </ul>
@@ -70,7 +70,7 @@ export default function Farmacity() {
                                 the user to find one by location.</p>
                         </div>
                         <div className="col-md-4">
-                            <img className="phone" src="https://underscreen.com/uploads/project/farmacity-gps.jpg"
+                            <img className="phone" src="/uploads/project/farmacity-gps.jpg"
                                  alt=""/>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default function Farmacity() {
                     </header>
                     <div className="row">
                         <div className="col-md-4 col-md-offset-2"><img className="phone"
-                                                                       src="https://underscreen.com/uploads/project/farmacity-marketing-material.jpg"
+                                                                       src="/uploads/project/farmacity-marketing-material.jpg"
                                                                        alt=""/></div>
                         <div className="col-md-4">
                             <p className="mt2">&nbsp;</p><p className="mt">&nbsp;</p>
@@ -119,16 +119,16 @@ export default function Farmacity() {
                                 </style>
                                 <div className="carousel-inner phone" role="listbox">
                                     <div className="item active">
-                                        <img src="https://underscreen.com/uploads/project/farmacity-employees.jpg"/>
+                                        <img src="/uploads/project/farmacity-employees.jpg"/>
                                         <div className="carousel-caption"></div>
                                     </div>
                                     <div className="item">
-                                        <img src="https://underscreen.com/uploads/project/farmacity-news.jpg"/>
+                                        <img src="/uploads/project/farmacity-news.jpg"/>
                                         <div className="carousel-caption"></div>
                                     </div>
                                     <div className="item">
                                         <img
-                                            src="https://underscreen.com/uploads/project/farmacity-responsabilidad-social.jpg"/>
+                                            src="/uploads/project/farmacity-responsabilidad-social.jpg"/>
                                         <div className="carousel-caption"></div>
                                     </div>
                                 </div>

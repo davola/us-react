@@ -4,7 +4,7 @@ export default function CFFC(){
 
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     CFFC - Silverstripe responsive website
@@ -20,7 +20,7 @@ export default function CFFC(){
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/cffc.silverstripe.jpg" alt="" />
+                    <img src="/uploads/project/cffc.silverstripe.jpg" alt="" />
                 </div>
                 <div className="container-fluid">
                     <hr />
@@ -35,7 +35,7 @@ export default function CFFC(){
                                     <p className="h3-css">I customize the HTML mockup theme to match client designs.</p>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="https://underscreen.com/uploads/logos/400x200/silverstripe.png" alt="" />
+                                    <img src="/uploads/logos/400x200/silverstripe.png" alt="" />
                                 </div>
                             </div>
                         </section>

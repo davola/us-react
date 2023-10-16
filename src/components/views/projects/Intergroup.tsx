@@ -3,7 +3,7 @@ export default function Intergroup(){
         <main className="project intergroup static-modal-navigation" data-controller="MainProject" style={{width: "100%", height: "100%", top: "0px", left: "0px"}}>
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Intergroup - NZ Infrastructure &amp; Industrial Services Specialists
@@ -22,7 +22,7 @@ export default function Intergroup(){
                 </div>
 
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/intergroup.open-source-left.jpg" alt="" />
+                    <img src="/uploads/project/intergroup.open-source-left.jpg" alt="" />
                 </div>
 
                 <div className="container-fluid">
@@ -37,7 +37,7 @@ export default function Intergroup(){
                                     <h3 className="mb2 pb">I developed this responsive website and its custom theme with wordpress</h3>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="https://underscreen.com/uploads/logos/400x200/wordpress.png" alt="" />
+                                    <img src="/uploads/logos/400x200/wordpress.png" alt="" />
                                 </div>
                             </div>
                         </section>

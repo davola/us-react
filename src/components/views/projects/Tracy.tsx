@@ -4,7 +4,7 @@ export default function Tracy(){
 
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Tracy - eMonitor
@@ -21,7 +21,7 @@ export default function Tracy(){
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/tracy.webapp.jpg" alt="" />
+                    <img src="/uploads/project/tracy.webapp.jpg" alt="" />
                 </div>
                 <div className="container-fluid">
                     <hr />
@@ -35,13 +35,13 @@ export default function Tracy(){
                                     <h3 className="mb2 pb">I based the project on a wireframe design delivered by the project leader. I
                                         were in charge of the rest of the development process, including:</h3>
                                     <ul className="numbered-detail mt2">
-                                        <li className="col-md-4"><img src="https://underscreen.com/uploads/logos/400x200/db-schema.png" alt="" />
+                                        <li className="col-md-4"><img src="/uploads/logos/400x200/db-schema.png" alt="" />
                                             <p><strong>01</strong> DB schema design</p>
                                         </li>
-                                        <li className="col-md-4"><img src="https://underscreen.com/uploads/logos/400x200/bootstrap.png" alt="" />
+                                        <li className="col-md-4"><img src="/uploads/logos/400x200/bootstrap.png" alt="" />
                                             <p><strong>02</strong> HTML Mockup building with Bootstrap</p>
                                         </li>
-                                        <li className="col-md-4"><img src="https://underscreen.com/uploads/logos/400x200/symfony.png" alt="" />
+                                        <li className="col-md-4"><img src="/uploads/logos/400x200/symfony.png" alt="" />
                                             <p><strong>03</strong> Web application development with Symfony</p>
                                         </li>
                                     </ul>

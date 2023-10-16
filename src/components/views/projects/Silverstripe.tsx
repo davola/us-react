@@ -4,7 +4,7 @@ export default function Silverstripe(){
 
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Silverstripe responsive websites design &amp; development
@@ -21,7 +21,7 @@ export default function Silverstripe(){
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/silverstripe.websites.2.jpg" alt="" />
+                    <img src="/uploads/project/silverstripe.websites.2.jpg" alt="" />
                 </div>
                 <div className="container-fluid">
                     <hr />

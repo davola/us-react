@@ -3,7 +3,7 @@ export default function Puntovino(){
         <main className="project puntovino static-modal-navigation" data-controller="MainProject" style={{width: "100%", height: "100%", top: "0px", left: "0px"}}>
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Puntovino - Online wine store
@@ -19,7 +19,7 @@ export default function Puntovino(){
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/puntovino.ecommerce.jpg" alt="" />
+                    <img src="/uploads/project/puntovino.ecommerce.jpg" alt="" />
                 </div>
             </div>
 
@@ -35,14 +35,14 @@ export default function Puntovino(){
                             <div className="col-md-10 col-md-offset-1">
                                 <ul className="numbered-detail">
                                     <li className="col-md-4">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/design.png" alt="" />
+                                        <img src="/uploads/logos/400x200/design.png" alt="" />
                                             <p><strong>01</strong> Website design and HTML mockup</p>
                                     </li>
                                     <li className="col-md-4">
-                                        <img src="https://underscreen.com/uploads/logos/400x200/db-schema.png" alt="" />
+                                        <img src="/uploads/logos/400x200/db-schema.png" alt="" />
                                             <p><strong>02</strong> e-commerce DB schema design</p>
                                     </li>
-                                    <li className="col-md-4"><img src="https://underscreen.com/uploads/logos/400x200/ecommerce.png" alt="" />
+                                    <li className="col-md-4"><img src="/uploads/logos/400x200/ecommerce.png" alt="" />
                                         <p><strong>03</strong> e-commerce development with PHP and MySQL</p>
                                     </li>
                                 </ul>

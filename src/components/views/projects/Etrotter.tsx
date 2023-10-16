@@ -3,7 +3,7 @@ export default function Etrotter(){
         <main className="project etrotter static-modal-navigation" data-controller="MainProject" style={{width: "100%", height: "100%", top: "0px", left: "0px"}}>
             <nav className="modal-navigation">
                 <div className="brand">
-                    <a href="https://underscreen.com/" className="btn-us">underSCREEN</a>
+                    <a href="/" className="btn-us">underSCREEN</a>
                 </div>
                 <div className="title">
                     Etrotter - Electric bikes e-commerce
@@ -21,7 +21,7 @@ export default function Etrotter(){
                 </div>
 
                 <div className="image">
-                    <img src="https://underscreen.com/uploads/project/etrotter.ecommerce.jpg" alt="" />
+                    <img src="/uploads/project/etrotter.ecommerce.jpg" alt="" />
                 </div>
             </div>
 
@@ -35,16 +35,16 @@ export default function Etrotter(){
                     <div className="row">
                         <div className="col-md-10 col-md-offset-1">
                             <ul className="numbered-detail">
-                                <li className="col-md-3"><img src="https://underscreen.com/uploads/logos/400x200/design.png" alt="" />
+                                <li className="col-md-3"><img src="/uploads/logos/400x200/design.png" alt="" />
                                     <p><strong>01</strong> Website design</p>
                                 </li>
-                                <li className="col-md-3"><img src="https://underscreen.com/uploads/logos/400x200/bootstrap.png" alt="" />
+                                <li className="col-md-3"><img src="/uploads/logos/400x200/bootstrap.png" alt="" />
                                     <p><strong>02</strong> Responsive HTML mockup with Bootstrap</p>
                                 </li>
-                                <li className="col-md-3"><img src="https://underscreen.com/uploads/logos/400x200/wordpress.png" alt="" />
+                                <li className="col-md-3"><img src="/uploads/logos/400x200/wordpress.png" alt="" />
                                     <p><strong>03</strong> Wordpress custom theme development</p>
                                 </li>
-                                <li className="col-md-3"><img src="https://underscreen.com/uploads/logos/400x200/woocommerce.png" alt="" />
+                                <li className="col-md-3"><img src="/uploads/logos/400x200/woocommerce.png" alt="" />
                                     <p><strong>04</strong> Woocommerce e-commerce implementation</p>
                                 </li>
                             </ul>
