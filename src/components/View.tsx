@@ -2,8 +2,8 @@ import Home from "./views/Home";
 import AboutUs from "./views/AboutUs";
 import WhyUs from "./views/WhyUs";
 import Services from "./views/Services";
-import Service from "./views/Service";
-import Work from "./views/Work";
+import Service, {ServiceType} from "./views/Service";
+import Work, {WorkType} from "./views/Work";
 
 export type ViewProps = {
     view: string;
@@ -34,10 +34,10 @@ export default function View({view, subView}: ViewProps) {
             currentView = <Services/>;
             break;
         case 'service':
-            currentView = <Service subView={subView}/>;
+            currentView = <Service serviceSubView={subView as ServiceType}/>;
             break;
         case 'work':
-            currentView = <Work subView={subView} />;
+            currentView = <Work workSubView={subView as WorkType} />;
             break;
     }
 

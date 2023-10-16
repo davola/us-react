@@ -1,6 +1,8 @@
+import {ServiceType} from "../components/views/Service";
+
 export type DataServiceType = {
     isMain: boolean;
-    subView: string;
+    subView: ServiceType;
     class: string;
     image: string;
     title: string;

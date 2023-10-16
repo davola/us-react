@@ -4,20 +4,7 @@ import PageTop from "./components/PageTop";
 import View from "./components/View";
 import {PageBottom} from "./components/PageBottom";
 import {classNames} from "./utils/Utils";
-
-function parseViewPath(path: string[]): string[] {
-    const viewNameNormalization: {} = {
-        "why-hire-freelance-development": 'why-hire-us',
-        "freelance-software-development-services": 'services'
-    }
-    const viewName = Reflect.get(viewNameNormalization, path[0]) || path[0];
-    if (path.length === 1) return [viewName || 'home', ''];
-    switch (path[0]) {
-        case 'freelance-software-development':
-            return ['service', path[1]];
-    }
-    return [viewName, path[1]];
-}
+import {parseViewPath} from "./utils/Routing";
 
 function App() {
     const path: string[] = window.location.pathname.substring(1).split('/');

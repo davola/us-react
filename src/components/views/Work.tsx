@@ -1,7 +1,8 @@
 import {DataServices} from "../../dara/DataServices";
-import {ServiceProp} from "./Service";
+import {getWorkServiceName} from "../../utils/Routing";
+import {DataWorks} from "../../dara/DataWorks";
 
-function WorkServices({subView}: ServiceProp) {
+function WorkServices({workSubView}: WorkProp) {
     const workServices = DataServices.map((service) => {
         const ref = '/work/' + service.subView;
         const active = '';
@@ -20,19 +21,46 @@ function workServiceClick (){
     alert('Clicked!')
 }
 
-function getWorkServiceName(subView: string){
-
-    const workServices: {} = {
-        'featured': 'Featured',
-        'web-application-development': 'Web Application Development',
-        'mobile-development': 'Mobile Development',
-        'ecommerce-development': 'E-commerce Development',
-        'responsive-website-development': 'Responsive Website Development',
-    }
-    return Reflect.get(workServices, subView);
+function getWorkTypeRelatedWork(workType: WorkType){
+    return DataWorks.filter(dataWork => dataWork.tag.includes(workType));
 }
 
-export default function Work({subView}: ServiceProp) {
+function WorkServiceSamples({workSubView}: WorkProp) {
+
+    const relatedWorkServiceSamples = getWorkTypeRelatedWork(workSubView).map(service =>
+        <a data-controller="Project" href="/project/donmario"
+           data-page-title="Don Mario - Productivity Hybrid Mobile Application">
+            <article className="project donmario">
+                <h1></h1>
+                <div className="row">
+                    <div className="col-md-8 col-md-offset-2">
+                        <h3 className="subtitle">I built this productivity mobile cross-platform
+                            application
+                            and it’s Symfony web application content manager system for for one of the
+                            largest Argentine seed sellers: DonMario Semillas.</h3>
+                    </div>
+                </div>
+                <div className="image">
+                    <img src="/uploads/project/donmario.app.jpg" alt=""/>
+                </div>
+            </article>
+        </a>
+    )
+
+    return (
+        <div className="projects-container">
+            {relatedWorkServiceSamples}
+        </div>
+    );
+}
+
+export type WorkProp = {
+    workSubView: WorkType;
+}
+
+export type WorkType = "featured" | "web-application-development" | "mobile-development" | "ecommerce-development" | "responsive-website-development";
+
+export default function Work({workSubView}: WorkProp) {
     return (
         <main className="work">
             <header>
@@ -51,30 +79,10 @@ export default function Work({subView}: ServiceProp) {
                 <div className="container">
                     <div className="row selector">
                         <h3>Here you have some examples of my
-                            <a data-controller="ServiceSelector" href="#" className="btn-service"><span>{getWorkServiceName(subView)}</span></a> work.
+                            <a data-controller="ServiceSelector" href="#" className="btn-service"><span>{getWorkServiceName(workSubView)}</span></a> work.
                         </h3>
                     </div>
-                    <div className="projects-container">
-                        <a data-controller="Project" href="/project/donmario"
-                           data-page-title="Don Mario - Productivity Hybrid Mobile Application">
-                            <article className="project donmario">
-                                <h1><span>Helping farmers calculate their</span>
-                                    <span>seed order and find a dealer</span>
-                                </h1>
-                                <div className="row">
-                                    <div className="col-md-8 col-md-offset-2">
-                                        <h3 className="subtitle">I built this productivity mobile cross-platform
-                                            application
-                                            and it’s Symfony web application content manager system for for one of the
-                                            largest Argentine seed sellers: DonMario Semillas.</h3>
-                                    </div>
-                                </div>
-                                <div className="image">
-                                    <img src="/uploads/project/donmario.app.jpg" alt=""/>
-                                </div>
-                            </article>
-                        </a>
-                    </div>
+                    <WorkServiceSamples workSubView={workSubView} />
                 </div>
             </section>
             <div className="serviceModal">
@@ -82,7 +90,7 @@ export default function Work({subView}: ServiceProp) {
                 <div className="centered">
                     <h3>Choose a type of work</h3>
                     <h3 className="loading">Loading</h3>
-                    <WorkServices subView={subView} />
+                    <WorkServices workSubView={workSubView} />
                 </div>
             </div>
         </main>

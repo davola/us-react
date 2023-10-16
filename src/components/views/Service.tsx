@@ -5,14 +5,22 @@ import MobileCrossPlatform from "./services/MobileCrossPlatform";
 import {DataServices, DataServiceType} from "../../dara/DataServices";
 
 export type ServiceProp = {
-    subView: string;
+    serviceSubView: ServiceType;
 }
-export default function Service({subView}: ServiceProp) {
-    const currentService: DataServiceType = DataServices.filter(service => service.subView === subView)[0];
+
+export type ServiceType = 'web-applications' | 'mobile-cross-platform-applications' | 'e-commerce-websites' | 'wordpress-and-silverstripe-responsive-websites';
+
+
+export function getServiceTypeCurrentService(serviceType: ServiceType){
+    return DataServices.filter(service => service.subView === serviceType)[0];
+}
+
+export default function Service({serviceSubView}: ServiceProp) {
+    const currentService: DataServiceType = getServiceTypeCurrentService(serviceSubView);
 
     let service;
 
-    switch (subView) {
+    switch (serviceSubView as any) {
         case 'web-applications':
             service = <WebApplication currentService={currentService}/>;
             break;
@@ -31,7 +39,7 @@ export default function Service({subView}: ServiceProp) {
                     <h3>The current View is:</h3>
                     <h1>Service</h1>
                     <h3>The current SubView is:</h3>
-                    <h1>{subView}</h1>
+                    <h1>{serviceSubView}</h1>
                     <hr/>
                 </main>
             );

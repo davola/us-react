@@ -1,14 +1,19 @@
 import {DataServiceType} from "../../../dara/DataServices";
 import {ServiceWorkItem} from "./ServiceWorkItem";
 import {DataWorks} from "../../../dara/DataWorks";
+import {getServiceTypeCurrentService} from "../Service";
 
 type ServiceRelatedWorkProp = {
     currentService: DataServiceType;
 }
 
+export function getServiceTypeRelatedWork(currentService: DataServiceType){
+    return DataWorks.filter(work => work.tag.includes(currentService.workTag));
+}
+
 export function ServiceRelatedWork({currentService}: ServiceRelatedWorkProp) {
-    const workItems = DataWorks.filter(work => work.tag.includes(currentService.workTag));
-    const serviceWorkItems = workItems.map(workItem =>
+
+    const serviceWorkItems = getServiceTypeRelatedWork(currentService).map(workItem =>
         <ServiceWorkItem workItem={workItem}/>
     )
     return (
