@@ -23,14 +23,13 @@ export default function View({view, subView}: ViewProps) {
         case 'about-us':
             currentView = <AboutUs/>;
             break;
-        case 'why-hire-freelance-development':
         case 'why-hire-us':
             currentView = <WhyUs/>;
             break;
         case 'contact':
             currentView = <Home/>;
             break;
-        case 'freelance-software-development-services':
+        case 'services':
             currentView = <Services/>;
             break;
         case 'service':
