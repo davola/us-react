@@ -4,7 +4,7 @@ import ResponsiveWebsites from "./services/ResponsiveWebsites";
 import MobileCrossPlatform from "./services/MobileCrossPlatform";
 import {DataServices, DataServiceType} from "../../dara/DataServices";
 
-type ServiceProp = {
+export type ServiceProp = {
     subView: string;
 }
 export default function Service({subView}: ServiceProp) {

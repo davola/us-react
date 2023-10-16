@@ -9,7 +9,7 @@ export default function AboutUs() {
                             <h1 className="very-big">About <span className="text-gray-dark">me</span></h1>
                             <h3><span className="star blue"></span>Hi there! 👋 My name is <a
                                 style={{display: 'inline-block', borderBottom: '2px solid #00b3ee'}}
-                                href="https://www.linkedin.com/in/diegoavola/" target="_blank">Diego Avola</a>
+                                href="https://www.linkedin.com/in/diegoavola/" target="_blank" rel="noreferrer">Diego Avola</a>
                                 and I live in Buenos Aires, Argentina. <span className="text-gray-dark">(GMT-3)</span>
                             </h3>
                             <h3 className="mt">🤓 I'm an old-school self taught <span className="text-strong-black">full-stack software engineer</span> that

@@ -85,25 +85,25 @@ export default function Silverstripe(){
                                 </section>
                                 <section className="footer">
                                     <div className="row">
-                                        <a href="//solarcity.co.nz" className="col-md-4 btn-link" target="_blank">
+                                        <a href="//solarcity.co.nz" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                             Check it on solarcity.co.nz<span className="btn-arrow right"></span>
                                         </a>
-                                        <a href="//cffc.org.nz" className="col-md-4 btn-link" target="_blank">
+                                        <a href="//cffc.org.nz" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                             Check it on cffc.org.nz <span className="btn-arrow right"></span>
                                         </a>
-                                        <a href="//avantibikes.com/nz" className="col-md-4 btn-link" target="_blank">
+                                        <a href="//avantibikes.com/nz" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                             Check it on avantibikes.com/nz <span className="btn-arrow right"></span>
                                         </a>
                                     </div>
                                     <div className="data">
                                         <div className="col-md-4">
-                                            <p><strong>Year:</strong> 2014 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for Solarcity</p>
+                                            <p><strong>Year:</strong> 2014 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for Solarcity</p>
                                         </div>
                                         <div className="col-md-4">
-                                            <p><strong>Year:</strong> 2014 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for CFFC Org.</p>
+                                            <p><strong>Year:</strong> 2014 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for CFFC Org.</p>
                                         </div>
                                         <div className="col-md-4">
-                                            <p><strong>Year:</strong> 2015 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for Avantibikes</p>
+                                            <p><strong>Year:</strong> 2015 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for Avantibikes</p>
                                         </div>
                                     </div>
                                 </section>

@@ -65,19 +65,17 @@ export default function Silverstripe() {
                 </section>
                 <section className="footer">
                     <div className="row">
-                        <a href="https://renovate.asb.co.nz/" rel="nofollow" target="_blank"
-                           className="col-md-12 btn-link">
-                            Checkout renovate.asb.co.nz <span className="btn-arrow right"></span>
+                        <a href="https://renovate.asb.co.nz/" target="_blank" rel="noreferrer"
+                           className="col-md-12 btn-link">Checkout renovate.asb.co.nz <span className="btn-arrow right"></span>
                         </a>
                     </div>
                     <div className="data">
-                        <strong>Year:</strong> 2013 <span className="sep">—</span> <strong>Client:</strong> <a
-                        href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for
+                        <strong>Year:</strong> 2013 <span className="sep">—</span> <strong>Client:</strong>
+                        <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for
                         the ASB Bank
                     </div>
                 </section>
             </div>
-
         </main>
     )
 }

@@ -107,12 +107,12 @@ export default function Puntovino(){
                                 </section>
                                 <section className="footer">
                                     <div className="row">
-                                        <a href="http://puntovino.com.ar/" rel="nofollow" target="_blank" className="col-md-12 btn-link">
+                                        <a href="http://puntovino.com.ar/" target="_blank" rel="noreferrer" className="col-md-12 btn-link">
                                             Checkout puntovino.com.ar <span className="btn-arrow right"></span>
                                         </a>
                                     </div>
                                     <div className="data">
-                                        <strong>Year:</strong> 2012 <span className="sep">—</span> <strong>Client:</strong> <a href="http://besingular.com.ar" rel="nofollow" target="_blank">BeSingular</a>, for Puntovino
+                                        <strong>Year:</strong> 2012 <span className="sep">—</span> <strong>Client:</strong> <a href="http://besingular.com.ar" target="_blank" rel="noreferrer">BeSingular</a>, for Puntovino
                                     </div>
                                 </section>
             </div>

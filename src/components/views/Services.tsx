@@ -40,11 +40,11 @@ export default function Services() {
                                 <span className="star red"></span>I provide a vast array of <strong>freelance software
                                 development</strong> services
                                 with frameworks such as
-                                <a href="http://symfony.com" target="_blank"><strong className="green">Symfony</strong></a>,
-                                <a href="http://angular.io" target="_blank"><strong
+                                <a href="http://symfony.com" target="_blank" rel="noreferrer"><strong className="green">Symfony</strong></a>,
+                                <a href="http://angular.io" target="_blank" rel="noreferrer"><strong
                                     className="red">AngularJS</strong></a>,
-                                <a href="http://phonegap.com" target="_blank"><strong className="blue">Phonegap</strong></a> or
-                                <a href="http://magento.com" target="_blank"><strong className="orange">Magento</strong></a>.
+                                <a href="http://phonegap.com" target="_blank" rel="noreferrer"><strong className="blue">Phonegap</strong></a> or
+                                <a href="http://magento.com" target="_blank" rel="noreferrer"><strong className="orange">Magento</strong></a>.
                             </h3>
                         </div>
                     </div>

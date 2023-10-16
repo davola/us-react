@@ -68,12 +68,12 @@ export default function Tracy(){
                             </section>
                             <section className="footer">
                                 <div className="row">
-                                    <a href="https://www.tracyemonitor.org/" rel="nofollow" target="_blank" className="col-md-12 btn-link">
+                                    <a href="https://www.tracyemonitor.org/" target="_blank" rel="noreferrer" className="col-md-12 btn-link">
                                         tracyemonitor.org <span className="text-danger">—Restricted Access, sorry—</span>
                                     </a>
                                 </div>
                                 <div className="data">
-                                    <strong>Year:</strong> 2012 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for the TrACY project
+                                    <strong>Year:</strong> 2012 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for the TrACY project
                                 </div>
                             </section>
                 </div>

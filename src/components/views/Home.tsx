@@ -59,9 +59,9 @@ export default function Home() {
                             <img src="img/code.svg" alt="Quality code"/>
                             <h2>Quality software</h2>
                             <p>I develop quality software, always following best practices with frameworks such as <a
-                                href="http://symfony.com" target="_blank">Symfony</a>, <a href="https://angular.io/"
-                                                                                          target="_blank">AngularJS</a> and <a
-                                href="http://wordpress.org" target="_blank">Wordpress</a>.</p>
+                                href="http://symfony.com" target="_blank" rel="noreferrer">Symfony</a>, <a href="https://angular.io/"
+                                                                                          target="_blank" rel="noreferrer">AngularJS</a> and <a
+                                href="http://wordpress.org" target="_blank" rel="noreferrer">Wordpress</a>.</p>
                         </li>
                         <li className="col-md-4">
                             <img src="img/money.svg" alt="Save money"/>

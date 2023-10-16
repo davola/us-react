@@ -109,12 +109,12 @@ export default function Etrotter(){
                                 </section>
                                 <section className="footer">
                                     <div className="row">
-                                        <a href="http://etrotter.com.ar/" rel="nofollow" target="_blank" className="col-md-12 btn-link">
+                                        <a href="http://etrotter.com.ar/" target="_blank" rel="noreferrer" className="col-md-12 btn-link">
                                             Checkout etrotter.com.ar <span className="btn-arrow right"></span>
                                         </a>
                                     </div>
                                     <div className="data">
-                                        <strong>Year:</strong> 2015 <span className="sep">—</span> <strong>Client:</strong> <a href="http://macross.com.ar" rel="nofollow" target="_blank">Agencia Macross</a>, for Etrotter electric bikes
+                                        <strong>Year:</strong> 2015 <span className="sep">—</span> <strong>Client:</strong> <a href="http://macross.com.ar" target="_blank" rel="noreferrer">Agencia Macross</a>, for Etrotter electric bikes
                                     </div>
                                 </section>
             </div>

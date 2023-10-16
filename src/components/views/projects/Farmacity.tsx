@@ -151,8 +151,8 @@ export default function Farmacity() {
                 <section className="footer">
                     <div className="data">
                         <strong>Year:</strong> 2012 <span className="sep">—</span> <strong>Client:</strong> <a
-                        href="http://www.kasiopea.net/" rel="nofollow" target="_blank">Kasiopea</a>, for <a
-                        href="http://www.farmacity.com.ar/" target="_blank" rel="nofollow">Farmacity SA</a>
+                        href="http://www.kasiopea.net/" target="_blank" rel="noreferrer">Kasiopea</a>, for <a
+                        href="http://www.farmacity.com.ar/" target="_blank" rel="noreferrer">Farmacity SA</a>
                     </div>
                 </section>
             </div>

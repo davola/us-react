@@ -219,18 +219,18 @@ export default function DonMario(){
                                             </section>
                                             <section className="footer">
                                                 <div className="row">
-                                                    <a href="https://itunes.apple.com/mg/app/donmario-semillas/id1041009008?mt=8" className="col-md-4 btn-link" target="_blank">
+                                                    <a href="https://itunes.apple.com/mg/app/donmario-semillas/id1041009008?mt=8" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                                         Check it on App store <span className="btn-arrow right"></span>
                                                     </a>
-                                                    <a href="https://play.google.com/store/apps/details?id=com.underscreen.donmario&amp;hl=es_419" className="col-md-4 btn-link" target="_blank">
+                                                    <a href="https://play.google.com/store/apps/details?id=com.underscreen.donmario&amp;hl=es_419" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                                         Check it on Google Play <span className="btn-arrow right"></span>
                                                     </a>
-                                                    <a href="https://www.microsoft.com/en-us/store/apps/donmario-semillas/9nblggh5x6xw" className="col-md-4 btn-link" target="_blank">
+                                                    <a href="https://www.microsoft.com/en-us/store/apps/donmario-semillas/9nblggh5x6xw" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                                         Check it on Windows store <span className="btn-arrow right"></span>
                                                     </a>
                                                 </div>
                                                 <div className="data">
-                                                    <strong>Year:</strong> 2015 <span className="sep">—</span> <strong>Client:</strong> <a href="http://elpixel.com" rel="nofollow" target="_blank">El pixel</a>, for <a href="http://www.donmario.com/" target="_blank" rel="nofollow">Don Mario Semillas</a>.
+                                                    <strong>Year:</strong> 2015 <span className="sep">—</span> <strong>Client:</strong> <a href="http://elpixel.com" target="_blank" rel="noreferrer">El pixel</a>, for <a href="http://www.donmario.com/" target="_blank" rel="noreferrer">Don Mario Semillas</a>.
                                                 </div>
                                             </section>
                 </div>

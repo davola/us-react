@@ -42,14 +42,14 @@ export default function WebApplication({currentService}: CurrentServiceProps) {
                             <p>I can take charge of the whole development process, or work remotely as part of a larger
                                 team.</p>
                             <p>I develop our backend software with PHP using the open-source framework <a
-                                href="http://symfony.com/" target="_blank" rel="nofollow">Symfony</a>.</p>
+                                href="http://symfony.com/" target="_blank" rel="noreferrer">Symfony</a>.</p>
                             <p>When it comes to the frontend development we prefer Google's <a
-                                href="https://angular.io/" target="_blank" rel="nofollow">AngularJS</a> framework, but
+                                href="https://angular.io/" target="_blank" rel="noreferrer">AngularJS</a> framework, but
                                 we also
                                 have experience working with others such as <a href="http://backbonejs.org/"
-                                                                               target="_blank"
-                                                                               rel="nofollow">BackeboneJS</a>, and <a
-                                    href="http://facebook.github.io/react/" target="_blank" rel="nofollow">ReactJS</a>
+                                                                               target="_blank" rel="noreferrer"
+                                >BackeboneJS</a>, and <a
+                                    href="http://facebook.github.io/react/" target="_blank" rel="noreferrer">ReactJS</a>
                             </p>
                         </div>
                     </div>
@@ -66,8 +66,8 @@ export default function WebApplication({currentService}: CurrentServiceProps) {
                         <div className="col-md-7">
                             <h4>Symfony</h4>
                             <p>I specialize in PHP software development with <a href="http://symfony.com/"
-                                                                                target="_blank"
-                                                                                rel="nofollow">Symfony</a>, the leading
+                                                                                target="_blank" rel="noreferrer"
+                            >Symfony</a>, the leading
                                 PHP framework for building web applications. </p>
                             <p>It promotes best practices and standardization and provides a vast array of reusable
                                 components.</p>
@@ -82,8 +82,8 @@ export default function WebApplication({currentService}: CurrentServiceProps) {
                         </div>
                         <div className="col-md-7 col-md-pull-5">
                             <h4>AngularJS</h4>
-                            <p><a href="https://angularjs.org/" target="_blank" rel="nofollow">AngularJS</a> and <a
-                                href="https://angular.io/" target="_blank" rel="nofollow">AngularJS 2.0</a> help us work
+                            <p><a href="https://angularjs.org/" target="_blank" rel="noreferrer">AngularJS</a> and <a
+                                href="https://angular.io/" target="_blank" rel="noreferrer">AngularJS 2.0</a> help us work
                                 better
                                 with the dynamic HTML views of a web application.</p>
                             <p>They allow us to build more reliable apps and with more readable code faster.</p>
@@ -98,7 +98,7 @@ export default function WebApplication({currentService}: CurrentServiceProps) {
                         <div className="col-md-7">
                             <h4>Twitter Bootstrap</h4>
                             <p>I deliver working prototypes faster with the <a href="http://getbootstrap.com/"
-                                                                               target="_blank" rel="nofollow">Twitter
+                                                                               target="_blank" rel="noreferrer">Twitter
                                 Bootstrap framework</a>.</p>
                             <p>It helps us build mobile-first projects that are fully compatible with a large set of
                                 devices thanks to its rock-solid responsive grid system.</p>
@@ -108,8 +108,8 @@ export default function WebApplication({currentService}: CurrentServiceProps) {
                     </div>
                 </div>
             </section>
-            <ServiceRelatedWork currentService={currentService} />
-            <ServiceOthers currentService={currentService} />
+            <ServiceRelatedWork currentService={currentService}/>
+            <ServiceOthers currentService={currentService}/>
         </main>
     )
 }

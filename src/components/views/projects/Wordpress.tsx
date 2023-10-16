@@ -93,25 +93,25 @@ export default function Wordpress(){
                                 </section>
                                 <section className="footer">
                                     <div className="row">
-                                        <a href="//intergroup.co.nz" className="col-md-4 btn-link" target="_blank">
+                                        <a href="//intergroup.co.nz" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                             Check it on intergroup.co.nz <span className="btn-arrow right"></span>
                                         </a>
-                                        <a href="//etrotter.com.ar" className="col-md-4 btn-link" target="_blank">
+                                        <a href="//etrotter.com.ar" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                             Check it on etrotter.com.ar <span className="btn-arrow right"></span>
                                         </a>
-                                        <a href="//amadeuscustomerscorner.com/en/" className="col-md-4 btn-link" target="_blank">
+                                        <a href="//amadeuscustomerscorner.com/en/" className="col-md-4 btn-link" target="_blank" rel="noreferrer">
                                             Check it on amadeuscustomerscorner.com <span className="btn-arrow right"></span>
                                         </a>
                                     </div>
                                     <div className="data">
                                         <div className="col-md-4">
-                                            <p><strong>Year:</strong> 2014 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for Intergroup</p>
+                                            <p><strong>Year:</strong> 2014 <br />  <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for Intergroup</p>
                                         </div>
                                         <div className="col-md-4">
-                                            <p><strong>Year:</strong> 2015 <br /> <strong>Client:</strong> <a href="http://macross.com.ar/" rel="nofollow" target="_blank">Agencia Macross</a>, for Etrotter</p>
+                                            <p><strong>Year:</strong> 2015 <br /> <strong>Client:</strong> <a href="http://macross.com.ar/" target="_blank" rel="noreferrer">Agencia Macross</a>, for Etrotter</p>
                                         </div>
                                         <div className="col-md-4">
-                                            <p><strong>Year:</strong> 2015 <br /> <strong>Client:</strong> <a href="http://kasiopea.net/" rel="nofollow" target="_blank">Kasiopea</a>, for Amadeus</p>
+                                            <p><strong>Year:</strong> 2015 <br /> <strong>Client:</strong> <a href="http://kasiopea.net/" target="_blank" rel="noreferrer">Kasiopea</a>, for Amadeus</p>
                                         </div>
                                     </div>
                                 </section>

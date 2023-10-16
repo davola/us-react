@@ -59,12 +59,12 @@ export default function Intergroup(){
                             </section>
                             <section className="footer">
                                 <div className="row">
-                                    <a href="//intergroup.co.nz/" rel="nofollow" target="_blank" className="col-md-12 btn-link">
+                                    <a href="//intergroup.co.nz/" target="_blank" rel="noreferrer" className="col-md-12 btn-link">
                                         Check intergroup.co.nz
                                     </a>
                                 </div>
                                 <div className="data">
-                                    <strong>Year:</strong> 2014 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for Intergroup
+                                    <strong>Year:</strong> 2014 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for Intergroup
                                 </div>
                             </section>
                 </div>

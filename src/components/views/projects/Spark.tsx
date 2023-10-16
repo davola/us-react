@@ -194,7 +194,7 @@ export default function Spark(){
                                         </a>
                                     </div>
                                     <div className="data">
-                                        <strong>Year:</strong> 2014 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for <a href="https://www.spark.co.nz/" target="_blank" rel="nofollow">Spark</a> -formelly Telecom-
+                                        <strong>Year:</strong> 2014 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for <a href="https://www.spark.co.nz/" target="_blank" rel="noreferrer">Spark</a> -formelly Telecom-
                                     </div>
                                 </section>
             </div>

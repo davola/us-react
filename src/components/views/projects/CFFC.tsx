@@ -41,12 +41,12 @@ export default function CFFC(){
                         </section>
                         <section className="footer">
                             <div className="row">
-                                <a href="//cffc.org.nz/" rel="nofollow" target="_blank" className="col-md-12 btn-link">
+                                <a href="//cffc.org.nz/" target="_blank" rel="noreferrer" className="col-md-12 btn-link">
                                     Check cffc.org.nz
                                 </a>
                             </div>
                             <div className="data">
-                                <strong>Year:</strong> 2015 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" rel="nofollow" target="_blank">Salt Interactive</a>, for CFFC Organization
+                                <strong>Year:</strong> 2015 <span className="sep">—</span> <strong>Client:</strong> <a href="http://www.saltinteractive.com/" target="_blank" rel="noreferrer">Salt Interactive</a>, for CFFC Organization
                             </div>
                         </section>
                 </div>
