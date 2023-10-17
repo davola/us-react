@@ -180,27 +180,27 @@ export default function DonMario(){
                                                             
                                                             <div className="carousel-inner" role="listbox">
                                                                 <div className="item">
-                                                                    <img src="/uploads/project/dm-0.jpg" />
+                                                                    <img src="/uploads/project/dm-0.jpg" alt="" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item active">
-                                                                    <img src="/uploads/project/dm-1.jpg" />
+                                                                    <img src="/uploads/project/dm-1.jpg" alt="" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="/uploads/project/dm-2.jpg" />
+                                                                    <img src="/uploads/project/dm-2.jpg" alt="" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="/uploads/project/dm-3.jpg" />
+                                                                    <img src="/uploads/project/dm-3.jpg" alt="" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="/uploads/project/dm-4.jpg" />
+                                                                    <img src="/uploads/project/dm-4.jpg" alt="" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                                 <div className="item">
-                                                                    <img src="/uploads/project/dm-5.jpg" />
+                                                                    <img src="/uploads/project/dm-5.jpg" alt="" />
                                                                         <div className="carousel-caption"></div>
                                                                 </div>
                                                             </div>

@@ -40,7 +40,7 @@ var sticky = function () {
     }
 
     var i, r, o, s, a, l, c = $(document), u = "static", d = 60, f = 0, p = function () {
-        i = $("body > nav.main-nav"), l = $("body.home-view").length ? 60 : 40
+        i = $(" body > div > nav.main-nav"), l = $("body.home-view").length ? 60 : 40
     };
     //console.log(i);
     $(window).on("scroll", function () {

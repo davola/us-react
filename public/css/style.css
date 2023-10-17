@@ -1495,45 +1495,45 @@ nav.main-nav.main-navigation--sticky.main-navigation--show {
   top: 0 !important;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
-body > div > nav + main {
+ body > div > div > nav + main {
   position: relative;
   z-index: 2;
   margin-bottom: 577px;
   border-bottom: 1px solid #ccccd2;
 }
-body > div > nav + main > header h3 {
+ body > div > div > nav + main > header h3 {
   position: relative;
   text-align: left;
   padding-left: 100px;
   margin-top: 70px;
 }
-body > div > nav + main > header h3 span.star {
+ body > div > div > nav + main > header h3 span.star {
   top: 50%;
   transform: translateY(-50%);
 }
-body > div > nav + main > header,
-body > div > nav + main section {
+ body > div > div > nav + main > header,
+ body > div > div > nav + main section {
   padding: 70px 0;
 }
-body > div > nav + main > header hr,
-body > div > nav + main section hr {
+ body > div > div > nav + main > header hr,
+ body > div > div > nav + main section hr {
   width: 160px;
   height: 3px;
   background-color: #808080;
   margin: 20px auto;
   border: none;
 }
-body > div > nav + main > header h1 span,
-body > div > nav + main section h1 span,
-body > div > nav + main > header h3 span,
-body > div > nav + main section h3 span {
+ body > div > div > nav + main > header h1 span,
+ body > div > div > nav + main section h1 span,
+ body > div > div > nav + main > header h3 span,
+ body > div > div > nav + main section h3 span {
   white-space: nowrap;
 }
-body > div > nav + main > header {
+ body > div > div > nav + main > header {
   padding-top: 150px;
   margin-top: -80px;
 }
-body > div > nav + main > header h1 {
+ body > div > div > nav + main > header h1 {
   margin: 0 0 20px;
 }
 footer {
@@ -5886,34 +5886,34 @@ main.error404 .msg {
     margin-top: 15px;
     margin-bottom: 20px;
   }
-  body > div > nav + main {
+   body > div > div > nav + main {
     padding-top: 110px;
     margin-bottom: 0;
   }
-  body > div > nav + main > header {
+   body > div > div > nav + main > header {
     padding: 70px 0 35px;
     margin-top: -110px;
   }
-  body > div > nav + main > header h1 span,
-  body > div > nav + main > header h3 span {
+   body > div > div > nav + main > header h1 span,
+   body > div > div > nav + main > header h3 span {
     white-space: normal;
   }
-  body > div > nav + main > header h3 {
+   body > div > div > nav + main > header h3 {
     text-align: center;
     padding: 0 15px;
     padding-top: 90px;
     margin-top: 15px;
     margin-bottom: 0;
   }
-  body > div > nav + main > header h3 span.star {
+   body > div > div > nav + main > header h3 span.star {
     top: 0;
     margin-left: 50%;
     transform: translateX(-50%);
   }
-  body > div > nav + main > header h1.big {
+   body > div > div > nav + main > header h1.big {
     padding: 0 15px;
   }
-  body > div > nav + main section {
+   body > div > div > nav + main section {
     padding: 15px 0;
   }
   nav.main-nav {

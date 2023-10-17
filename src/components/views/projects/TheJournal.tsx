@@ -100,31 +100,31 @@ export default function TheJournal(){
                                         </style>
                                         <div className="carousel-inner" role="listbox">
                                             <div className="item active">
-                                                <img src="/uploads/project/journa-drag-n-drop.jpg" />
+                                                <img src="/uploads/project/journa-drag-n-drop.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/journal-brain-food.jpg" />
+                                                <img src="/uploads/project/journal-brain-food.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/journal-calendar.jpg" />
+                                                <img src="/uploads/project/journal-calendar.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/journal-invite-a-friend.jpg" />
+                                                <img src="/uploads/project/journal-invite-a-friend.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/journal-list-problems.jpg" />
+                                                <img src="/uploads/project/journal-list-problems.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/journal-receipe.jpg" />
+                                                <img src="/uploads/project/journal-receipe.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/journal-sleep-routine.jpg" />
+                                                <img src="/uploads/project/journal-sleep-routine.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                         </div>

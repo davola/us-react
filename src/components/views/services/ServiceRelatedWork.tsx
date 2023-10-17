@@ -1,7 +1,6 @@
 import {DataServiceType} from "../../../data/DataServices";
 import {ServiceWorkItem} from "./ServiceWorkItem";
 import {DataWorks} from "../../../data/DataWorks";
-import {getServiceTypeCurrentService} from "../Service";
 
 type ServiceRelatedWorkProp = {
     currentService: DataServiceType;

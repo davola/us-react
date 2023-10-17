@@ -111,27 +111,27 @@ export default function Spark(){
                                         </style>
                                         <div className="carousel-inner" role="listbox">
                                             <div className="item active">
-                                                <img src="/uploads/project/spark-01-photo.jpg" />
+                                                <img src="/uploads/project/spark-01-photo.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/spark-02-choose-layout.jpg" />
+                                                <img src="/uploads/project/spark-02-choose-layout.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/spark-03-position-stencil.jpg" />
+                                                <img src="/uploads/project/spark-03-position-stencil.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/spark-04-tint-stencil.jpg" />
+                                                <img src="/uploads/project/spark-04-tint-stencil.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/spark-06-add-tags.jpg" />
+                                                <img src="/uploads/project/spark-06-add-tags.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                             <div className="item">
-                                                <img src="/uploads/project/spark-06-upload-photo.jpg" />
+                                                <img src="/uploads/project/spark-06-upload-photo.jpg" alt="" />
                                                     <div className="carousel-caption"></div>
                                             </div>
                                         </div>
@@ -182,7 +182,7 @@ export default function Spark(){
                                         </div>
                                         <div className="col-md-4">
                                             <div className="phone iphone">
-                                                <iframe id="spark-iframe" src="" width="320" height="568" frameBorder="0"></iframe>
+                                                <iframe title="spatk iframe" id="spark-iframe" src="" width="320" height="568"></iframe>
                                             </div>
                                         </div>
                                     </div>

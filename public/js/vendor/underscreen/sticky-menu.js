@@ -16,7 +16,7 @@ var sticky = function () {
     }
 
     var i, r, o, s, a, l, c = $(document), u = "static", d = 60, f = 0, p = function () {
-        i = $("body > header.main nav.container"), l = 15 //$(".homepage-index").length ? 40 : 15
+        i = $(" body > div > header.main nav.container"), l = 15 //$(".homepage-index").length ? 40 : 15
     };
     console.log(i);
     $(window).on("scroll", function () {

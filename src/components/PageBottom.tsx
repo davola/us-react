@@ -30,17 +30,23 @@ function getFooterText(view: string): TextsType {
 export function PageBottom({view}: PageBottomProps) {
     const texts = getFooterText(view);
     return (
-        <footer>
-            <header>
-                <h3>{texts.h3}</h3>
-                <h1 className="very-big"><a href={texts.url}>{texts.h1}</a></h1>
-            </header>
-            <div className="line">
-                <div className="bg-blue"></div>
-                <div className="bg-green"></div>
-                <div className="bg-lime"></div>
-            </div>
-            <MenuFooter view={view} />
-        </footer>
+        <>
+            <footer>
+                <header>
+                    <h3>{texts.h3}</h3>
+                    <h1 className="very-big"><a href={texts.url}>{texts.h1}</a></h1>
+                </header>
+                <div className="line">
+                    <div className="bg-blue"></div>
+                    <div className="bg-green"></div>
+                    <div className="bg-lime"></div>
+                </div>
+                <MenuFooter view={view}/>
+            </footer>
+            <script src="/js/vendor/jquery/jquery-2.2.0.min.js"></script>
+            <script src="/js/vendor/bootstrap/bootstrap.min.js"></script>
+            <script src="/js/plugins.js"></script>
+            <script src="/js/main.js"></script>
+        </>
     )
 }

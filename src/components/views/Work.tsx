@@ -34,7 +34,7 @@ export default function Work({workSubView}: WorkProp) {
                     <div className="container">
                         <div className="row selector">
                             <h3>Here you have some examples of my
-                                <a data-controller="ServiceSelector" href="#"
+                                <a data-controller="ServiceSelector" href=""
                                    className="btn-service"><span>{getWorkServiceName(workSubView)}</span></a> work.
                             </h3>
                         </div>

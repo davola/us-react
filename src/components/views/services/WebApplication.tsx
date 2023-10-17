@@ -1,6 +1,4 @@
-import {DataServices, DataServiceType} from "../../../data/DataServices";
-import {ServiceRelatedWork} from "./ServiceRelatedWork";
-import {ServiceOthers} from "./ServiceOthers";
+import {DataServiceType} from "../../../data/DataServices";
 
 export type CurrentServiceProps = {
     currentService: DataServiceType;

@@ -1,6 +1,4 @@
 import {CurrentServiceProps} from "./WebApplication";
-import {ServiceRelatedWork} from "./ServiceRelatedWork";
-import {ServiceOthers} from "./ServiceOthers";
 import parse from "html-react-parser";
 
 export default function ECommerce({currentService}: CurrentServiceProps) {

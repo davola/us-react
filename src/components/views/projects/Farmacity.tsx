@@ -119,16 +119,15 @@ export default function Farmacity() {
                                 </style>
                                 <div className="carousel-inner phone" role="listbox">
                                     <div className="item active">
-                                        <img src="/uploads/project/farmacity-employees.jpg"/>
+                                        <img src="/uploads/project/farmacity-employees.jpg" alt=""/>
                                         <div className="carousel-caption"></div>
                                     </div>
                                     <div className="item">
-                                        <img src="/uploads/project/farmacity-news.jpg"/>
+                                        <img src="/uploads/project/farmacity-news.jpg" alt=""/>
                                         <div className="carousel-caption"></div>
                                     </div>
                                     <div className="item">
-                                        <img
-                                            src="/uploads/project/farmacity-responsabilidad-social.jpg"/>
+                                        <img src="/uploads/project/farmacity-responsabilidad-social.jpg" alt=""/>
                                         <div className="carousel-caption"></div>
                                     </div>
                                 </div>
