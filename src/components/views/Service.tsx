@@ -3,15 +3,21 @@ import ECommerce from "./services/ECommerce";
 import ResponsiveWebsites from "./services/ResponsiveWebsites";
 import MobileCrossPlatform from "./services/MobileCrossPlatform";
 import {DataServices, DataServiceType} from "../../dara/DataServices";
+import {ServiceRelatedWork} from "./services/ServiceRelatedWork";
+import {ServiceOthers} from "./services/ServiceOthers";
 
 export type ServiceProp = {
     serviceSubView: ServiceType;
 }
 
-export type ServiceType = 'web-applications' | 'mobile-cross-platform-applications' | 'e-commerce-websites' | 'wordpress-and-silverstripe-responsive-websites';
+export type ServiceType =
+    'web-applications'
+    | 'mobile-cross-platform-applications'
+    | 'e-commerce-websites'
+    | 'wordpress-and-silverstripe-responsive-websites';
 
 
-export function getServiceTypeCurrentService(serviceType: ServiceType){
+export function getServiceTypeCurrentService(serviceType: ServiceType) {
     return DataServices.filter(service => service.subView === serviceType)[0];
 }
 
@@ -45,5 +51,12 @@ export default function Service({serviceSubView}: ServiceProp) {
             );
     }
 
-    return service;
+    return (
+        <main className="service">
+            {service}
+            <ServiceRelatedWork currentService={currentService}/>
+            <ServiceOthers currentService={currentService}/>
+        </main>
+    )
+
 }

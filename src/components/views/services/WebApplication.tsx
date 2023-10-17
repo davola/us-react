@@ -8,7 +8,7 @@ export type CurrentServiceProps = {
 
 export default function WebApplication({currentService}: CurrentServiceProps) {
     return (
-        <main className="service">
+        <>
             <header>
                 <div className="container">
                     <div className="row">
@@ -108,8 +108,6 @@ export default function WebApplication({currentService}: CurrentServiceProps) {
                     </div>
                 </div>
             </section>
-            <ServiceRelatedWork currentService={currentService}/>
-            <ServiceOthers currentService={currentService}/>
-        </main>
+        </>
     )
 }

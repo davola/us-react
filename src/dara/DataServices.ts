@@ -19,7 +19,7 @@ export const DataServices:DataServiceType[] = [
         class: "web-application",
         image: "/img/web-application-development.svg",
         title: "<span>Web application</span> <span class='display-block'>development</span>",
-        short: "Web Application Development",
+        short: "Web Application",
         desc: "I develop PHP and JavaScript web applications with Symfony and AngularJS",
         workTag: "web-application-development",
         link: "/freelance-software-development/web-applications"
@@ -30,7 +30,7 @@ export const DataServices:DataServiceType[] = [
         class: "mobile-cross-platform",
         image: "/img/cross-platform-development.svg",
         title: "<span>Mobile cross-platform</span> <span style='display:block;'>application development</span>",
-        short: "Mobile development",
+        short: "Mobile Application",
         desc: "<span>I develop mobile phonegap applications</span> <span>for iOS, Android, and Windows phone</span>",
         workTag: "mobile-development",
         link: "/freelance-software-development/mobile-cross-platform-applications"
@@ -41,7 +41,7 @@ export const DataServices:DataServiceType[] = [
         class: "e-commerce",
         image: "/img/online-store-development.svg",
         title: "<span>E-commerce</span> <span class='display-block'>development</span>",
-        short: "E-commerce development",
+        short: "E-commerce",
         desc: "<span>I develop responsive online stores</span> <span>with Woocommerce and Magento.</span>",
         workTag: "ecommerce-development",
         link: "/freelance-software-development/e-commerce-websites"
@@ -52,7 +52,7 @@ export const DataServices:DataServiceType[] = [
         class: "open-source",
         image: "/img/open-source-cms-development.svg",
         title: "<span>Responsive website</span> <span class='display-block'>development</span>",
-        short: "Responsive website development",
+        short: "Responsive website",
         desc: "<span>I develop responsive <span class='text-nowrap'>open-source</span> websites</span> <span>with Wordpress or Silverstripe</span>",
         workTag: "responsive-website-development",
         link: "/freelance-software-development/wordpress-and-silverstripe-responsive-websites"
