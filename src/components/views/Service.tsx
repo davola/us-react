@@ -2,7 +2,7 @@ import WebApplication from "./services/WebApplication";
 import ECommerce from "./services/ECommerce";
 import ResponsiveWebsites from "./services/ResponsiveWebsites";
 import MobileCrossPlatform from "./services/MobileCrossPlatform";
-import {DataServices, DataServiceType} from "../../dara/DataServices";
+import {DataServices, DataServiceType} from "../../data/DataServices";
 import {ServiceRelatedWork} from "./services/ServiceRelatedWork";
 import {ServiceOthers} from "./services/ServiceOthers";
 

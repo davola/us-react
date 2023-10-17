@@ -1,4 +1,4 @@
-import {DataServices} from "../../dara/DataServices";
+import {DataServices} from "../../data/DataServices";
 import {WorkProp} from "./Work";
 
 export function WorkServices({workSubView}: WorkProp) {

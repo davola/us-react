@@ -1,4 +1,4 @@
-import {DataServices, DataServiceType} from "../../../dara/DataServices";
+import {DataServices, DataServiceType} from "../../../data/DataServices";
 import {ServiceOthersItems} from "./ServiceOthersItems";
 
 type ServiceOthersProps = {

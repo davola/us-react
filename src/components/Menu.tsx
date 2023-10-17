@@ -1,5 +1,5 @@
 import {ViewProps} from "./View";
-import {menuItems} from "../dara/Menu";
+import {menuItems} from "../data/Menu";
 import MenuItem from "./MenuItem";
 import React from "react";
 

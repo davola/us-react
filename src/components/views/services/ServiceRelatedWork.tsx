@@ -1,6 +1,6 @@
-import {DataServiceType} from "../../../dara/DataServices";
+import {DataServiceType} from "../../../data/DataServices";
 import {ServiceWorkItem} from "./ServiceWorkItem";
-import {DataWorks} from "../../../dara/DataWorks";
+import {DataWorks} from "../../../data/DataWorks";
 import {getServiceTypeCurrentService} from "../Service";
 
 type ServiceRelatedWorkProp = {

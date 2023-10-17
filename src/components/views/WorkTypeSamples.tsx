@@ -1,5 +1,5 @@
 import {WorkProp, WorkType} from "./Work";
-import {DataWorks} from "../../dara/DataWorks";
+import {DataWorks} from "../../data/DataWorks";
 import parse from "html-react-parser";
 
 function getWorkTypeSamples(workType: WorkType) {

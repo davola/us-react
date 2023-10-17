@@ -1,4 +1,4 @@
-import {DataServices, DataServiceType} from "../../dara/DataServices";
+import {DataServices, DataServiceType} from "../../data/DataServices";
 import parse from 'html-react-parser';
 import React from "react";
 

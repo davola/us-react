@@ -1,4 +1,4 @@
-import {DataWorkType} from "../../../dara/DataWorks";
+import {DataWorkType} from "../../../data/DataWorks";
 import parse from "html-react-parser";
 
 type ServiceWorkItemProps = {

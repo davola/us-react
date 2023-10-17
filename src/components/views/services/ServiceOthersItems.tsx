@@ -1,4 +1,4 @@
-import {DataServiceType} from "../../../dara/DataServices";
+import {DataServiceType} from "../../../data/DataServices";
 
 type OtherServiceProp = {
     prevService: DataServiceType;
