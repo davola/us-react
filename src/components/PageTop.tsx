@@ -14,7 +14,7 @@ export default function PageTop({view, subView}: ViewProps) {
                 <a href="/" className="home">
                     <img src="/img/underscreen-logo.png" alt="underSCREEN"/>
                 </a>
-                <Menu view={view} subView={subView}/>
+                <Menu view={view} subView={subView} placement="page_top"/>
                 <a href="/get-a-quote" className={getaQuoteClasses}>Get a quote</a>
             </div>
         </nav>

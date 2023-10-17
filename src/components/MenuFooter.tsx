@@ -6,14 +6,14 @@ import {PageBottomProps} from "./PageBottom";
 export function MenuFooter({view}: PageBottomProps) {
     const liMenuItems = menuItems.map(menuItem => {
             return (
-                <MenuItem currentView={view} menuItem={menuItem}/>
+                <MenuItem key={'footer-' + menuItem.id} currentView={view} menuItem={menuItem} placement="footer" />
             );
         }
     );
     return (
         <nav>
             <div className="container">
-                <ul className="menu">
+                <ul className="menu" key="menu-ul-footer">
                     {liMenuItems}
                 </ul>
             </div>

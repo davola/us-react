@@ -3,10 +3,16 @@ import {menuItems} from "../data/Menu";
 import MenuItem from "./MenuItem";
 import React from "react";
 
-export function Menu({view, subView}: ViewProps) {
+type MenuProps = {
+    view: string;
+    subView: string;
+    placement: string;
+}
+
+export function Menu({view, subView, placement}: MenuProps) {
     const topMenuItems = menuItems.filter((value, idx) => idx !== 0 );
     const liMenuItems = topMenuItems.map(menuItem =>
-        <MenuItem currentView={view} menuItem={menuItem}/>
+        <MenuItem key={'menu-top-' + menuItem.id} currentView={view} menuItem={menuItem} placement={placement}/>
     );
     return (
         <ul id="main-menu" className="menu">

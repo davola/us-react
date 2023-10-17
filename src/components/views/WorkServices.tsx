@@ -6,8 +6,9 @@ export function WorkServices({workSubView}: WorkProp) {
         const ref = '/work/' + service.subView;
         const active = '';
         return (
-            <li><a href={ref} className={active} onClick={workServiceClick}
-                   data-service="featured">{service.subView}</a></li>
+            <li key={service.subView}>
+                <a href={ref} className={active} onClick={workServiceClick} data-service="featured">{service.subView}</a>
+            </li>
         );
     })
     return (

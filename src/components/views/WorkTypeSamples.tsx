@@ -8,7 +8,7 @@ function getWorkTypeSamples(workType: WorkType) {
 
 export function WorkTypeSamples({workSubView}: WorkProp) {
     const relatedWorkTypeSamples = getWorkTypeSamples(workSubView).map(workType =>
-        <a data-controller="Project" href={workType.link} data-page-title={workType.pageTitle}>
+        <a data-controller="Project" key={workType.link} href={workType.link} data-page-title={workType.pageTitle}>
             <article className={'project ' + workType.class}>
                 <h1>{parse(workType.thumbTitle)}</h1>
                 <div className="row">
@@ -24,7 +24,7 @@ export function WorkTypeSamples({workSubView}: WorkProp) {
     )
 
     return (
-        <div className="projects-container">
+        <div key="related-work-type-samples" className="projects-container">
             {relatedWorkTypeSamples}
         </div>
     );
