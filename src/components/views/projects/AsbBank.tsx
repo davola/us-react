@@ -1,4 +1,4 @@
-export default function Silverstripe() {
+export default function AsbBank() {
     return (
         <main className="project asb static-modal-navigation" data-controller="MainProject"
               style={{width: "100%", height: "100%", top: "0px", left: "0px"}}>
