@@ -24,8 +24,8 @@ export function getWorkServiceName(subView: string) {
         'featured': 'Featured',
         'web-application-development': 'Web Application Development',
         'mobile-development': 'Mobile Development',
-        'ecommerce-development': 'E-commerce Development',
-        'responsive-website-development': 'Responsive Website Development',
+        'e-commerce-development': 'E-commerce Development',
+        'cms-responsive-website-development': 'Responsive Website Development',
     }
     return Reflect.get(workServices, subView) || 'Undefined Work Service';
 }

@@ -10,6 +10,7 @@ function App() {
     const path: string[] = window.location.pathname.substring(1).split('/');
     const [view, subView] = parseViewPath(path);
     const bodyClasses: string = classNames('body', 'view-' + view);
+
     return (
         <div className={bodyClasses}>
             <PageTop view={view} subView={subView}/>

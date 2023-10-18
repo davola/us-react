@@ -97,7 +97,7 @@ export const DataWorks:DataWorkType[] = [
         thumbImage: "/uploads/project/tracy.webapp.jpg",
     },
     {
-        tag: ["featured","ecommerce-development","responsive","wordpress","responsive-website-development"],
+        tag: ["featured","ecommerce-development","responsive","wordpress","responsive-website-development","cms-responsive-website-development", "e-commerce-development"],
         cat: "",
         file: "/view/project/etrotter.php",
         class: "etrotter",
@@ -109,7 +109,7 @@ export const DataWorks:DataWorkType[] = [
         thumbImage: "/uploads/project/etrotter.ecommerce.jpg",
     },
     {
-        tag: ["ecommerce-development"],
+        tag: ["ecommerce-development", "e-commerce-development"],
         cat: "",
         file: "/view/project/puntovino.php",
         class: "puntovino",
@@ -121,7 +121,7 @@ export const DataWorks:DataWorkType[] = [
         thumbImage: "/uploads/project/puntovino.ecommerce.jpg",
     },
     {
-        tag: ["wordpress","responsive","responsive-website-development"],
+        tag: ["wordpress","responsive","responsive-website-development","cms-responsive-website-development"],
         cat: "",
         file: "/view/project/intergroup.php",
         class: "intergroup",
@@ -133,7 +133,7 @@ export const DataWorks:DataWorkType[] = [
         thumbImage: "/uploads/project/intergroup.open-source-left.jpg",
     },
     {
-        tag: ["silverstripe","responsive","responsive-website-development"],
+        tag: ["silverstripe","responsive","responsive-website-development","cms-responsive-website-development"],
         cat: "",
         file: "/view/project/solarcity.php",
         class: "solarcity",
@@ -145,7 +145,7 @@ export const DataWorks:DataWorkType[] = [
         thumbImage: "/uploads/project/solarcity.open-source.jpg",
     },
     {
-        tag: ["silverstripe","responsive","responsive-website-development"],
+        tag: ["silverstripe","responsive","responsive-website-development","cms-responsive-website-development"],
         cat: "",
         file: "/view/project/cffc.php",
         class: "cffc",
@@ -157,7 +157,7 @@ export const DataWorks:DataWorkType[] = [
         thumbImage: "/uploads/project/solarcity.open-source.jpg",
     },
     {
-        tag: ["silverstripe", "featured","responsive-website-development"],
+        tag: ["silverstripe", "featured","responsive-website-development","cms-responsive-website-development"],
         cat: "",
         file: "/view/project/wordpress.php",
         class: "wordpress",
@@ -169,7 +169,7 @@ export const DataWorks:DataWorkType[] = [
         thumbImage: "/uploads/project/wordpress.websites.jpg",
     },
     {
-        tag: ["silverstripe","featured","responsive-website-development"],
+        tag: ["silverstripe","featured","responsive-website-development","cms-responsive-website-development"],
         cat: "",
         file: "/view/project/silverstripe.php",
         class: "silverstripe",

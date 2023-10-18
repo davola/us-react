@@ -1,8 +1,7 @@
-import {getWorkServiceName} from "../../utils/Routing";
-import {WorkServices} from "./WorkServices";
 import {WorkTypeSamples} from "./WorkTypeSamples";
-import {ServiceSelector} from "../../modules/ServiceSelector";
-import {useState} from "react";
+import {WorkServiceModal, ModalStateType} from "./WorkServiceModal";
+import React, {useState} from "react";
+import {getWorkServiceName} from "../../utils/Routing";
 
 export type WorkProp = {
     workSubView: WorkType;
@@ -16,8 +15,14 @@ export type WorkType =
     | "responsive-website-development";
 
 export default function Work({workSubView}: WorkProp) {
-    const serviceSelector = new ServiceSelector('context-text');
-    let [workServiceName] = useState(getWorkServiceName(workSubView));
+    let [modalState, setModalState] = useState("close" as ModalStateType);
+    let [workServiceName, setWorkServiceName] = useState(getWorkServiceName(workSubView));
+    const workServiceModalRef = React.useRef({openModal: Function});
+
+    function openModal(e: React.MouseEvent) {
+        e.preventDefault();
+        workServiceModalRef.current.openModal();
+    }
 
     return (
         <>
@@ -38,7 +43,7 @@ export default function Work({workSubView}: WorkProp) {
                     <div className="container">
                         <div className="row selector">
                             <h3>Here you have some examples of my
-                                <a href="#workServiceClick" onClick={(e)=> {e.preventDefault(); alert(serviceSelector.init())}} className="btn-service">
+                                <a href="#workServiceClick" onClick={openModal} className="btn-service">
                                     <span>{workServiceName}</span>
                                 </a> work.
                             </h3>
@@ -47,14 +52,7 @@ export default function Work({workSubView}: WorkProp) {
                     </div>
                 </section>
             </main>
-            <div className="serviceModal">
-                <button className="btn-close"></button>
-                <div className="centered">
-                    <h3>Choose a type of work</h3>
-                    <h3 className="loading">Loading</h3>
-                    <WorkServices workSubView={workSubView}/>
-                </div>
-            </div>
+            <WorkServiceModal workSubView={workSubView} modalState={modalState} ref={workServiceModalRef} />
         </>
     )
 }

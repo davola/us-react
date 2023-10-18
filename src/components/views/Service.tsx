@@ -11,11 +11,11 @@ export type ServiceProp = {
 }
 
 export type ServiceType =
-    'web-applications'
+    'featured'
+    | 'web-applications'
     | 'mobile-cross-platform-applications'
-    | 'e-commerce-websites'
+    | 'e-commerce-development'
     | 'wordpress-and-silverstripe-responsive-websites';
-
 
 export function getServiceTypeCurrentService(serviceType: ServiceType) {
     return DataServices.filter(service => service.subView === serviceType)[0];

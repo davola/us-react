@@ -1,13 +1,13 @@
-import {DataServices} from "../../data/DataServices";
+import {DataServices, DataServicesAll, DataServiceType} from "../../data/DataServices";
 import {WorkProp} from "./Work";
+import parse from "html-react-parser";
 
 export function WorkServices({workSubView}: WorkProp) {
-    const workServices = DataServices.map((service) => {
-        const ref = '/work/' + service.subView;
-        const active = '';
+    const workServices = DataServicesAll.map(service => {
+        const active = ((workSubView === service.subView) && 'active') || '';
         return (
             <li key={service.subView}>
-                <a href={ref} className={active} data-service="featured">{service.subView}</a>
+                <a href={service.link} className={active}>{parse(service.short) + ' Development'}</a>
             </li>
         );
     })
