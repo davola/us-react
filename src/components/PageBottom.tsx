@@ -43,10 +43,6 @@ export function PageBottom({view}: PageBottomProps) {
                 </div>
                 <MenuFooter view={view}/>
             </footer>
-            <script src="/js/vendor/jquery/jquery-2.2.0.min.js"></script>
-            <script src="/js/vendor/bootstrap/bootstrap.min.js"></script>
-            <script src="/js/plugins.js"></script>
-            <script src="/js/main.js"></script>
         </>
     )
 }

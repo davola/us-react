@@ -7,7 +7,7 @@ export function WorkServices({workSubView}: WorkProp) {
         const active = '';
         return (
             <li key={service.subView}>
-                <a href={ref} className={active} onClick={workServiceClick} data-service="featured">{service.subView}</a>
+                <a href={ref} className={active} data-service="featured">{service.subView}</a>
             </li>
         );
     })
@@ -16,9 +16,5 @@ export function WorkServices({workSubView}: WorkProp) {
             {workServices}
         </ul>
     );
-}
-
-function workServiceClick() {
-    alert('Clicked!')
 }
 

@@ -930,14 +930,13 @@ var uS = {
 
 };
 
-
-/********************************
- * uS INIT!
- */
-var $ = ($) ? $ : jQuery;
-$(document).ready(function ($) {
-    uS.init();
-});
+// /********************************
+//  * uS INIT!
+//  */
+// var $ = ($) ? $ : jQuery;
+// $(document).ready(function ($) {
+//     uS.init();
+// });
 
 /********************************
  * COMMONS

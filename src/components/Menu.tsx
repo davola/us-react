@@ -1,4 +1,3 @@
-import {ViewProps} from "./View";
 import {menuItems} from "../data/Menu";
 import MenuItem from "./MenuItem";
 import React from "react";
