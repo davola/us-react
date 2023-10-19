@@ -4,7 +4,7 @@ import WhyUs from "./views/WhyUs";
 import Services from "./views/Services";
 import Service, {ServiceType} from "./views/Service";
 import Work, {WorkType} from "./views/Work";
-import {Project} from "./Project";
+import {Project} from "./views/Project";
 
 export type ViewProps = {
     view: string;
