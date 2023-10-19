@@ -1,4 +1,4 @@
-import {DataServices, DataServicesAll, DataServiceType} from "../../data/DataServices";
+import {DataServicesAll} from "../../data/DataServices";
 import {WorkProp} from "./Work";
 import parse from "html-react-parser";
 
