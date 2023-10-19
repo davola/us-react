@@ -3,6 +3,8 @@ import {ViewProps} from "./View";
 import {Menu} from "./Menu";
 import {classNames} from "../utils/Utils";
 
+export const PlacementPageTop: string = 'PageTop';
+
 export default function PageTop({view, subView}: ViewProps) {
     let getaQuoteClasses = classNames('btn', 'wire', view === 'get-a-quote' && 'active');
     return (
@@ -14,7 +16,7 @@ export default function PageTop({view, subView}: ViewProps) {
                 <a href="/" className="home">
                     <img src="/img/underscreen-logo.png" alt="underSCREEN"/>
                 </a>
-                <Menu view={view} subView={subView} placement="page_top"/>
+                <Menu view={view} subView={subView} placement={PlacementPageTop}/>
                 <a href="/get-a-quote" className={getaQuoteClasses}>Get a quote</a>
             </div>
         </nav>

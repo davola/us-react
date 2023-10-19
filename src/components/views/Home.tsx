@@ -1,3 +1,6 @@
+import {Link} from "react-router-dom";
+import * as domain from "domain";
+
 export default function Home() {
     return (
         <main>
@@ -8,7 +11,7 @@ export default function Home() {
                             <h1 className="big"><a className="text-green" href="/contact-me">Hello!</a> <span>I'm Diego,</span>
                                 <span>a <a className="text-yellow" href="/why-hire-freelance-development">freelance</a>
                             <a className="text-red" href="/freelance-software-development-services">full-stack</a></span>
-                                <a className="text-blue" href="/work">software&nbsp;developer.</a></h1>
+                                <Link className="text-blue" to="/work">software&nbsp;developer.</Link></h1>
                             <h3><span className="star full"></span>
                                 My goal is to translate my clients projects ideas into code and deliver solid state-of-the-art web applications.</h3>
                         </div>

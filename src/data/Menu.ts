@@ -1,17 +1,10 @@
 import {MenuItemType} from "../components/MenuItem";
 
-export const menuItems: MenuItemType[] = [
-    {
-        id: 0,
-        view: 'home',
-        route: '/',
-        name: 'underSCREEN',
-        class: 'services',
-    },
+export const DataMenu: MenuItemType[] = [
     {
         id: 1,
         view: 'services',
-        route: '/freelance-software-development-services',
+        route: '/software-development-services',
         name: 'Services',
         class: 'services',
     },
@@ -51,3 +44,14 @@ export const menuItems: MenuItemType[] = [
         class: 'get-a-quote',
     },
 ];
+
+export const DataMenuAll:MenuItemType[] = [
+    {
+        id: 0,
+            view: 'home',
+        route: '/',
+        name: 'underSCREEN',
+        class: 'services',
+    },
+    ...DataMenu
+]

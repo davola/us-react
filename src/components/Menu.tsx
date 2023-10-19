@@ -1,6 +1,7 @@
-import {menuItems} from "../data/Menu";
-import MenuItem from "./MenuItem";
+import {DataMenu, DataMenuAll} from "../data/Menu";
 import React from "react";
+import MenuItem, {MenuItemType} from "./MenuItem";
+import {PlacementPageTop} from "./PageTop";
 
 type MenuProps = {
     view: string;
@@ -9,13 +10,11 @@ type MenuProps = {
 }
 
 export function Menu({view, subView, placement}: MenuProps) {
-    const topMenuItems = menuItems.filter((value, idx) => idx !== 0 );
-    const liMenuItems = topMenuItems.map(menuItem =>
-        <MenuItem key={'menu-top-' + menuItem.id} currentView={view} menuItem={menuItem} placement={placement}/>
-    );
     return (
         <ul id="main-menu" className="menu">
-            {liMenuItems}
+            {DataMenu.map(menuItem => (
+                <MenuItem key={'menu-top-' + menuItem.id} currentView={view} menuItem={menuItem} placement={placement}/>
+            ))}
         </ul>
     )
 }
