@@ -102,21 +102,16 @@ mark,
 .text-muted {
   color: $text-muted;
 }
-.text-primary {
-  @include text-emphasis-variant($brand-primary);
-}
-.text-success {
-  @include text-emphasis-variant($state-success-text);
-}
-.text-info {
-  @include text-emphasis-variant($state-info-text);
-}
-.text-warning {
-  @include text-emphasis-variant($state-warning-text);
-}
-.text-danger {
-  @include text-emphasis-variant($state-danger-text);
-}
+
+@include text-emphasis-variant('.text-primary', $brand-primary);
+
+@include text-emphasis-variant('.text-success', $state-success-text);
+
+@include text-emphasis-variant('.text-info', $state-info-text);
+
+@include text-emphasis-variant('.text-warning', $state-warning-text);
+
+@include text-emphasis-variant('.text-danger', $state-danger-text);
 
 // Contextual backgrounds
 // For now we'll leave these alongside the text classes until v4 when we can
@@ -125,20 +120,16 @@ mark,
   // Given the contrast here, this is the only class to have its color inverted
   // automatically.
   color: #fff;
-  @include bg-variant($brand-primary);
 }
-.bg-success {
-  @include bg-variant($state-success-bg);
-}
-.bg-info {
-  @include bg-variant($state-info-bg);
-}
-.bg-warning {
-  @include bg-variant($state-warning-bg);
-}
-.bg-danger {
-  @include bg-variant($state-danger-bg);
-}
+@include bg-variant('.bg-primary', $brand-primary);
+
+@include bg-variant('.bg-success', $state-success-bg);
+
+@include bg-variant('.bg-info', $state-info-bg);
+
+@include bg-variant('.bg-warning', $state-warning-bg);
+
+@include bg-variant('.bg-danger', $state-danger-bg);
 
 
 // Page header
@@ -167,15 +158,20 @@ ol {
 
 // List options
 
-// Unstyled keeps list items block level, just removes default browser padding and list-style
-.list-unstyled {
+// [converter] extracted from `.list-unstyled` for libsass compatibility
+@mixin list-unstyled {
   padding-left: 0;
   list-style: none;
 }
+// [converter] extracted as `@mixin list-unstyled` for libsass compatibility
+.list-unstyled {
+  @include list-unstyled;
+}
+
 
 // Inline turns list items into inline-block
 .list-inline {
-  @include list-unstyled();
+  @include list-unstyled;
   margin-left: -5px;
 
   > li {
@@ -208,7 +204,7 @@ dd {
 
 .dl-horizontal {
   dd {
-    &:extend(.clearfix all); // Clear the floated `dt` if an empty `dd` is present
+    @include clearfix; // Clear the floated `dt` if an empty `dd` is present
   }
 
   @media (min-width: $grid-float-breakpoint) {
@@ -217,7 +213,7 @@ dd {
       width: ($dl-horizontal-offset - 20);
       clear: left;
       text-align: right;
-      @include text-overflow();
+      @include text-overflow;
     }
     dd {
       margin-left: $dl-horizontal-offset;
@@ -231,14 +227,14 @@ dd {
 
 // Abbreviations and acronyms
 abbr[title],
-// Add data-* attribute to help out our tooltip plugin, per https://github.com/twbs/bootstrap/issues/5257
+  // Add data-* attribute to help out our tooltip plugin, per https://github.com/twbs/bootstrap/issues/5257
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted $abbr-border-color;
 }
 .initialism {
   font-size: 90%;
-  @include text-uppercase();
+  @extend .text-uppercase;
 }
 
 // Blockquotes
